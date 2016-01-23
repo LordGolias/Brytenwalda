@@ -72,6 +72,10 @@ class Item(GenericEntity):
         self._factions = factions_ids
         self._factions2 = factions2_ids
 
+    @property
+    def meshes(self):
+        return [mesh[0] for mesh in self._meshes]
+
     def export(self, compiler):
         result = " {id} {name} {name} {meshes_number} ".format(
             id=convert_to_identifier(self._id),
