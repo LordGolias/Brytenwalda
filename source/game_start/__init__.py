@@ -50,7 +50,7 @@ start_menu_0 = \
               (troop_set_slot, "trp_player", "slot_troop_renown", 450),
               (set_show_messages, 1),
 
-              (change_screen_map),
+              (jump_to_menu, "mnu_tests"),
           ]),
 
          ("go_back", [], "Go back", [(jump_to_menu, "mnu_start_game_0")])

@@ -13,6 +13,7 @@ from header_music import *
 
 from module_constants import *
 
+import tests
 from . import loans, enterprise, tournaments, game_start
 from . import villages
 import constable
@@ -31069,3 +31070,4 @@ The other clan chief a wily old man however had a suprise for the young man. Hav
 + villages.menus \
 + constable.menus \
 + minister.menus \
++ tests.menus \
