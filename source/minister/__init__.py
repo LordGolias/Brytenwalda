@@ -286,7 +286,7 @@ def _appoint_options():
     # todo: this is an hack to solve a previous error. Consider reformulating as try_for_parties's dialog with the spouse instead of menu options
     troops_ids = [troop[0] for troop in troops]
 
-    for index in range(troops_ids.index("npc1"), troops_ids.index("npc19")):
+    for index in range(troops_ids.index("npc1"), troops_ids.index("companions_end")):
         name = "trp_%s" % troops_ids[index]
         option = \
             ("appoint_%s" % troops_ids[index], [

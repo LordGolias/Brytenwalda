@@ -548,7 +548,7 @@ kings_begin = "trp_kingdom_1_lord"
 kings_end = lords_begin
 
 companions_begin = "trp_npc1"
-companions_end = "trp_npc19"
+companions_end = "trp_companions_end"
 
 active_npcs_begin = "trp_especiales_1"
 active_npcs_end = kingdom_ladies_begin

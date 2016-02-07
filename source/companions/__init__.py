@@ -554,23 +554,6 @@ scripts = [
         (troop_set_slot, "trp_npc18", "slot_troop_original_faction", 0),
         (troop_set_slot, "trp_npc18", "slot_lord_reputation_type", lrep_roguish),
 
-        # Placeholder - don't hire (indicates last npc)
-        # todo: why is it necessary to set attributes to him?
-        (troop_set_slot, "trp_npc19", "slot_troop_morality_type", tmt_egalitarian),
-        (troop_set_slot, "trp_npc19", "slot_troop_morality_value", 3),
-        (troop_set_slot, "trp_npc19", "slot_troop_2ary_morality_type", -1),
-        (troop_set_slot, "trp_npc19", "slot_troop_2ary_morality_value", 0),
-        (troop_set_slot, "trp_npc19", "slot_troop_personalityclash_object", "trp_npc16cleric"),
-        (troop_set_slot, "trp_npc19", "slot_troop_personalityclash2_object", "trp_npclady1"),
-        (troop_set_slot, "trp_npc19", "slot_troop_personalitymatch_object", "trp_npc_surgeon"),
-        (troop_set_slot, "trp_npc19", "slot_troop_home", 0),
-        (troop_set_slot, "trp_npc19", "slot_troop_payment_request", 850),
-        (troop_set_slot, "trp_npc19", "slot_troop_kingsupport_argument", argument_claim),
-        (troop_set_slot, "trp_npc19", "slot_troop_kingsupport_opponent", "trp_npc_grim"),
-        (troop_set_slot, "trp_npc19", "slot_troop_town_with_contacts", "p_town_5"),
-        (troop_set_slot, "trp_npc19", "slot_troop_original_faction", 0),
-        (troop_set_slot, "trp_npc19", "slot_lord_reputation_type", lrep_roguish),
-
         (store_sub, ":number_of_npc_slots", "slot_troop_strings_end", "slot_troop_intro"),
 
         (try_for_range, ":npc", companions_begin, companions_end),
