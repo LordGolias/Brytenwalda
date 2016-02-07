@@ -14,6 +14,7 @@ from header_presentations import *
 
 from module_constants import *
 from module_items import items
+from module_items_shields import HEAVY_SHIELD_WIDTH
 
 from . import economy, enterprise, tournaments, game_start, companions, caravans
 import notes
@@ -5504,8 +5505,9 @@ scripts = [
         (try_end),
       (else_try),
       (eq, "$g_armor_penalties", 1),
-        (this_or_next|is_between, ":item_no", escudos_pesados_begin, escudos_pesados_end),
-        (this_or_next|is_between, ":item_no", escudos_pesados2_begin, escudos_pesados2_end),
+		# todo: use shield weight instead...
+        (item_get_weapon_length, ":width", ":item_no"),
+        (this_or_next|gt, ":width", HEAVY_SHIELD_WIDTH),
         (this_or_next|is_between, ":item_no", calzado_pesados_begin, calzado_pesados_end),
         (this_or_next|is_between, ":item_no", yelmos_pesados_begin, yelmos_pesados_end),
         (is_between, ":item_no", yelmos_pesados2_begin, yelmos_pesados2_end),
@@ -8971,7 +8973,7 @@ scripts = [
      (else_try),
        (eq, ":random_no", 1),
        (assign, ":weapon_1", "itm_practice_sword"),
-       (assign, ":weapon_2", "itm_shield_4a"),
+       (assign, ":weapon_2", ARENA_SHIELD),
      (else_try),
        (assign, ":weapon_1", "itm_practice_sword"),
      (try_end),

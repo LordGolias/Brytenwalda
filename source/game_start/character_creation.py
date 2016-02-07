@@ -6,7 +6,7 @@ from source.header_item_modifiers import *
 from source.header_game_menus import mnf_disable_all_keys, menu_text_color
 
 from source.module_constants import *
-
+from source.module_items_shields import shields
 
 _a1_noble = "@You came into the world a {reg3?daughter:son} of declining " \
             "nobility, owning only the house in which they lived. However, " \
@@ -441,7 +441,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_two_handed_weapon, 10),
             (troop_raise_proficiency, "trp_player", wpt_polearm, 10),
 
-            (troop_add_item, "trp_player", "itm_crude_shield", imod_battered),
+            (troop_add_item, "trp_player", shields['common'][0]['light'][0], imod_battered),
             (troop_set_slot, "trp_player", "slot_troop_renown", 100),
             (call_script, "script_change_player_honor", 3),
 
@@ -458,7 +458,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_one_handed_weapon, 20),
 
             (troop_set_slot, "trp_player", "slot_troop_renown", 50),
-            (troop_add_item, "trp_player", "itm_crude_shield", imod_battered),
+            (troop_add_item, "trp_player", shields['common'][0]['light'][0], 0),
 
             (troop_add_gold, "trp_player", 100),
         (else_try),
@@ -486,7 +486,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_two_handed_weapon, 15),
             (troop_raise_proficiency, "trp_player", wpt_polearm, 20),
             (troop_raise_proficiency, "trp_player", wpt_throwing, 10),
-            (troop_add_item, "trp_player", "itm_cantabro_shield3", imod_battered),
+            (troop_add_item, "trp_player", shields['common'][0]['light'][0], 0),
             (troop_add_gold, "trp_player", 50),
             (troop_set_slot, "trp_player", "slot_troop_renown", 10),
         (else_try),
@@ -514,7 +514,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_one_handed_weapon, 10),
             (troop_raise_proficiency, "trp_player", wpt_archery, 30),
             (troop_raise_proficiency, "trp_player", wpt_throwing, 10),
-            (troop_add_item, "trp_player", "itm_shield_caledonian8", imod_battered),
+            (troop_add_item, "trp_player", shields['common'][0]['light'][0], imod_battered),
             (troop_add_gold, "trp_player", 15),
             (troop_set_slot, "trp_player", "slot_troop_renown", 10),
         (else_try),
@@ -530,7 +530,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_one_handed_weapon, 5),
             (troop_raise_proficiency, "trp_player", wpt_archery, 20),
             (troop_raise_proficiency, "trp_player", wpt_throwing, 5),
-            (troop_add_item, "trp_player", "itm_shield_caledonian8", imod_battered),
+            (troop_add_item, "trp_player", shields['common'][0]['light'][0], imod_battered),
             (troop_add_gold, "trp_player", 20),
         (else_try),
             (eq, "$background_type", cb_thief),

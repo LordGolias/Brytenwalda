@@ -1548,7 +1548,7 @@ but before burial, you must allow the crows to descend on their breasts and rele
   Here, take this shield. You've earned it.","hareck_troublemakers_11",
   [(succeed_quest,"qst_mod_trouble"),(call_script, "script_end_quest", "qst_mod_trouble"),]],
   [LazyFlag('trp_hareck')|plyr,"hareck_troublemakers_11", [], "My pleasure, sir. If you've any other jobs that need doing, please let me know. Farewell.",
-  "close_window",[(troop_add_item, "trp_player", "itm_cantabro_shield10res", 0),(add_xp_as_reward,700),(mission_disable_talk),(remove_troop_from_site,"trp_hareck","scn_town_41_tavern"),(succeed_quest,"qst_mod_trouble"),(call_script, "script_end_quest", "qst_mod_trouble"),(display_message, "@Everybody in the tavern has heard you, and they give you an angry look. Maybe its better to leave for now..."),]],
+  "close_window",[(troop_add_item, "trp_player", "itm_shield_cantabro_10", 0),(add_xp_as_reward,700),(mission_disable_talk),(remove_troop_from_site,"trp_hareck","scn_town_41_tavern"),(succeed_quest,"qst_mod_trouble"),(call_script, "script_end_quest", "qst_mod_trouble"),(display_message, "@Everybody in the tavern has heard you, and they give you an angry look. Maybe its better to leave for now..."),]],
   ['trp_hareck',"nekotalk4", [],"I guess there's nothing we can do about it if he's lost. If he shows up again, I'm dead. I don't think I can give a reward until we know for sure","close_window",[]],
 
   [LazyFlag('trp_hareck')|plyr,"hareck_talk", [(check_quest_active,"qst_mod_trouble"),(quest_slot_eq,"qst_mod_trouble","slot_quest_current_state",2)],

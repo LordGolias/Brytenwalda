@@ -9,11 +9,11 @@ from source.header_music import mtf_sit_siege, mtf_sit_travel, mtf_sit_arena
 from source.header_skills import *
 
 from source.module_constants import *
+from source.module_items_shields import HEAVY_SHIELD_WIDTH
 
 #from source.multiplayer.mission_template_triggers import banner_heal_multi, siege_multi_items, multi_warcry, \
 #    hunt_taunting, rain_multi, sistema_fatiga_multi, recupera_fatiga_multi, suma_fatigue_multi, \
 #    resta_fatigue_porcorrer_multi, resta_fatigue_multi
-
 from .formations import formations_triggers, AI_triggers
 from .bodyguard import bodyguard_triggers
 from .flail import flail_triggers
@@ -1194,39 +1194,47 @@ resta_fatigue_porcorrer = (8, 0, 0, [(eq, "$sp_fatigas", 1), #F123 - 1.41 -> Sub
             #    (val_add, ":stamina_coste", 1),
             #(try_end),
 
-            #Now for the four armaments every agent may carry (not wear)
-            (agent_get_item_slot,":cur_arma",":player",ek_item_0),
+            # Now for the four armaments every agent may carry (not wear)
             (try_begin),
-                # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                 (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-                (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-                (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_0),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
             (try_end),
 
-            (agent_get_item_slot,":cur_arma",":player",ek_item_1),
             (try_begin),
-                # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                 (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-                (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-                (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_1),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
             (try_end),
 
-            (agent_get_item_slot,":cur_arma",":player",ek_item_2),
             (try_begin),
-                # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                 (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-                (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-                (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_2),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
             (try_end),
 
-            (agent_get_item_slot,":cur_arma",":player",ek_item_3),
             (try_begin),
-                # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                 (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-                (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-                (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_3),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
             (try_end),
-   
+
         (agent_get_slot, ":basic_stamina", ":player", "slot_agent_fatiga"),
         (val_sub, ":basic_stamina", ":stamina_coste"), #maximo 8 para un hombre totalmente equipado, y minimo 1 para un picto desnudo
 
@@ -1278,7 +1286,7 @@ resta_fatigue = (ti_on_agent_hit, 0, 0, [(eq, "$sp_fatigas", 1),],[
             (assign, ":stamina_cost", 2), #pierde fatiga cada golpe.
         (try_end),
   #     (try_begin), #integrado en el peso por correr
-   #        (this_or_next|is_between, ":wielded", "itm_celtic_shield_smalla", "itm_hshield1"),
+   #        (this_or_next|is_between, ":wielded", "itm_celtic_shield_smalla", "itm_hshield3"),
    #        (is_between, ":wielded", "itm_shieldtarcza19", "itm_norman_shield_1"),
    #        (val_add, ":stamina_cost", 1), #pierde fatiga cada golpe.
     #   (try_end),

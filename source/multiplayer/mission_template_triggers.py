@@ -5,6 +5,8 @@ from source.header_triggers import *
 from source.header_items import *
 
 from source.module_constants import *
+from source.module_items_shields import HEAVY_SHIELD_WIDTH
+
 
 from shield_bash import mp_shield_bash_1, mp_shield_bash_2
 
@@ -204,37 +206,47 @@ resta_fatigue_porcorrer_multi = (4, 0, 0, [         (is_presentation_active, "pr
                 # (val_add, ":stamina_coste", 1),
             # (try_end),
 
-            #Now for the four armaments every agent may carry
-           (agent_get_item_slot,":cur_arma",":agent_no",ek_item_0),
-           (try_begin),
-               # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-               (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-               (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
-           (try_end),
-           (agent_get_item_slot,":cur_arma",":agent_no",ek_item_1),
-           (try_begin),
-               # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-               (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-               (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
-           (try_end),
+            # todo: exact copy found in other trigger at single player mission templates. DRY and make a common statement
+            # Now for the four armaments every agent may carry (not wear)
+            (try_begin),
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_0),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
 
-           (agent_get_item_slot,":cur_arma",":agent_no",ek_item_2),
-           (try_begin),
-               # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-               (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-               (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
-           (try_end),
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
+            (try_end),
 
-           (agent_get_item_slot,":cur_arma",":agent_no",ek_item_3),
-           (try_begin),
-               # (this_or_next|is_between, ":cur_arma", armas_pesadas_begin, armas_pesadas_end), #un arma es mas comoda de llevar, por ahora no quitamos stamina
-                (this_or_next|is_between, ":cur_arma", escudos_pesados_begin, escudos_pesados_end),
-               (is_between, ":cur_arma", escudos_pesados2_begin, escudos_pesados2_end),
-               (val_add, ":stamina_coste", 1), #un escudo de 70-90 cm es bastante pesado, en torno a 4-6 kg.
-           (try_end),
+            (try_begin),
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_1),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
+            (try_end),
+
+            (try_begin),
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_2),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
+            (try_end),
+
+            (try_begin),
+                (agent_get_item_slot, ":cur_weapon", ":player", ek_item_3),
+                (item_get_type, ":type", ":cur_weapon"),
+                (eq, ":type", itp_type_shield),
+
+                (item_get_weapon_length, ":width", ":cur_weapon"),
+                (gt, ":width", HEAVY_SHIELD_WIDTH),
+                (val_add, ":stamina_coste", 1),
+            (try_end),
               (try_begin),
         (game_key_clicked, gk_jump),#por saltar
          (val_add, ":stamina_coste", 4),

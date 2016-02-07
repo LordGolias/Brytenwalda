@@ -2686,7 +2686,7 @@ scripts = [
 		(neg|player_slot_ge, ":player_no", "slot_player_rpw_shield_bash_timer", 1), #Less than.
         (agent_get_wielded_item, ":shield", ":agent_no", 1), #Offhand item.
        # (this_or_next|is_between, ":shield", "itm_roman_shield_square", "itm_roman_shield_end"),
-		(is_between, ":shield", "itm_cheap_buckler", "itm_darts"),
+		(is_between, ":shield", shields_begin, shields_end),
         (agent_get_defend_action, ":action", ":agent_no"),
         (eq, ":action", 2), #Blocking.
         (agent_get_horse, ":horse", ":agent_no"),
@@ -2748,7 +2748,7 @@ scripts = [
             (agent_get_wielded_item, ":shield", ":victim", 1), #Offhand item.
 			(try_begin),
        # (this_or_next|is_between, ":shield", "itm_roman_shield_square", "itm_roman_shield_end"),
-		(is_between, ":shield", "itm_cheap_buckler", "itm_darts"),
+		(is_between, ":shield", shields_begin, shields_end),
                 (position_move_y, pos2, -50),
                 (position_get_distance_to_ground_level, ":distance", pos2),
                 (try_begin),

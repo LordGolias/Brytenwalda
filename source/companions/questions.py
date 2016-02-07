@@ -307,7 +307,7 @@ grant_fief_dialogs = [
          (troop_add_item, "$g_talk_troop", "itm_mailtunic_brown", 0),
          (troop_add_item, "$g_talk_troop", "itm_bishop_robe1", 0),
          (troop_add_item, "$g_talk_troop", "itm_saxonswordt2", 0),
-         (troop_add_item, "$g_talk_troop", "itm_norman_shield_1", 0),
+         (troop_add_item, "$g_talk_troop", "itm_shield_round_19", 0),
          (troop_add_item, "$g_talk_troop", "itm_spear_hvy", 0),
 
          # convert current morale to an improvement in relations:

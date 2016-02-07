@@ -35,7 +35,7 @@ start_menu_0 = \
               (troop_raise_skill, "trp_player", skl_weapon_master, 5),
               (troop_raise_skill, "trp_player", skl_leadership, 5),
               (troop_raise_skill, "trp_player", skl_looting, 5),
-              (troop_raise_skill, "trp_player", skl_shield, 5),
+              (troop_raise_skill, "trp_player", skl_shield, 20),
               (troop_raise_skill, "trp_player", skl_inventory_management, 5),
               (troop_raise_skill, "trp_player", skl_power_throw, 5),
               (troop_raise_skill, "trp_player", skl_pathfinding, 5),
@@ -43,7 +43,6 @@ start_menu_0 = \
               (troop_raise_proficiency_linear, "trp_player", wp(100), 10),
               (troop_add_item, "trp_player", "itm_spear2", 1),
               (troop_add_item, "trp_player", "itm_noblearmor21res", 0),
-              (troop_add_item, "trp_player", "itm_shieldtarcza4", 0),
               (troop_add_item, "trp_player", "itm_roman_horse1", 0),
               (troop_equip_items, "trp_player"),
 

@@ -494,6 +494,9 @@ courtship_poem_allegoric = 5  # Idealizes woman as a civilizing force -- the Rom
 tutorial_fighters_begin = "trp_tutorial_fighter_1"
 tutorial_fighters_end = "trp_tutorial_archer_1"
 
+# arena weapons
+ARENA_SHIELD = "itm_shield_gaelic_small_13"
+
 # Walker types:
 walkert_default = 0
 walkert_needs_money = 1
@@ -794,20 +797,20 @@ books_end = reference_books_end
 horses_begin = "itm_pony_horse"
 horses_end = "itm_pilgrim_disguise"
 
-weapons_begin = "itm_club_stick"
-weapons_end = "itm_cheap_buckler"
-
 ranged_weapons_begin = "itm_darts"
 ranged_weapons_end = "itm_torch"
 
-armors_begin = "itm_leather_gloves1"
-armors_end = "itm_club_stick"
-
-shields_begin = "itm_cheap_buckler"
+shields_begin = "itm_shield_gaelic_small_1"
 shields_end = ranged_weapons_begin
 
+weapons_begin = "itm_club_stick"
+weapons_end = shields_begin
+
+armors_begin = "itm_leather_gloves1"
+armors_end = weapons_begin
+
 estandartes_begin = "itm_wessexbanner1"
-estandartes_end = "itm_cheap_buckler"
+estandartes_end = shields_begin
 
 banner_meshes_begin = "mesh_banner_a01"
 banner_meshes_end_minus_one = "mesh_banner_k21"
@@ -1240,10 +1243,6 @@ yelmos_pesados2_begin = "itm_helmet_stripedt3"
 yelmos_pesados2_end = "itm_noheadhelm"
 calzado_pesados_begin = "itm_greaves1"
 calzado_pesados_end = "itm_cavalry_greaves"
-escudos_pesados_begin = "itm_gaelic_shielda"
-escudos_pesados_end = "itm_shield_roundengle1"
-escudos_pesados2_begin = "itm_shield_roundengle1"
-escudos_pesados2_end = "itm_banner_reinforced_shield"
 burro_begin = "itm_donkey_horse1"
 burro_end = "itm_pilgrim_disguise"
 coronas_begin = "itm_crown_lombardy"

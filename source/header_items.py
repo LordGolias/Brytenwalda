@@ -457,4 +457,16 @@ ixmesh_inventory   = 0x1000000000000000
 ixmesh_flying_ammo = 0x2000000000000000
 ixmesh_carry       = 0x3000000000000000
 ##############
-#item_saxon = 
+
+# helpers to identify the cultures of each kingdom
+briton_factions = ['fac_kingdom_6', 'fac_kingdom_7', 'fac_kingdom_8', 'fac_kingdom_10', 'fac_kingdom_11', 'fac_kingdom_12', 'fac_kingdom_15', 'fac_kingdom_16', 'fac_kingdom_18', 'fac_kingdom_21', 'fac_kingdom_22', 'fac_kingdom_23', 'fac_kingdom_24', 'fac_kingdom_25', 'fac_kingdom_26']
+irish_factions = ['fac_kingdom_17', 'fac_kingdom_19', 'fac_kingdom_27', 'fac_kingdom_28', 'fac_kingdom_29', 'fac_kingdom_30', 'fac_kingdom_31']
+pict_factions = ['fac_kingdom_20']
+engle_factions = ['fac_kingdom_4', 'fac_kingdom_9', 'fac_kingdom_13', 'fac_kingdom_14']
+jute_factions = ['fac_kingdom_1']
+saxon_factions = ['fac_kingdom_2', 'fac_kingdom_3', 'fac_kingdom_5']
+mercenary_factions = ['fac_merc1','fac_merc2']
+other_mercenary_factions = ['fac_merc3','fac_merc4']
+# todo: clarify what these combinations are intended for
+strange_combination = ['fac_kingdom_1', 'fac_kingdom_2', 'fac_kingdom_3']
+other_combination = ['fac_kingdom_1', 'fac_kingdom_2', 'fac_kingdom_3', 'fac_kingdom_4', 'fac_kingdom_5']
