@@ -32,6 +32,10 @@ import source.module_troops as m_troops
 from source.process_common import convert_to_identifier, replace_spaces
 
 
+# hard-coded value in M&B
+_MAX_ITEMS = 64
+
+
 class Troop(GenericEntity):
     tag = 'trp'
     raw_objects = m_troops.troops
@@ -54,6 +58,10 @@ class Troop(GenericEntity):
             logging.warning('Reserved in troop "%d" is not 0' % id)
         self._reserved = 0
         self._faction = faction
+
+        if len(inventory) > _MAX_ITEMS:
+            raise IndexError('Inventory size of troop cannot exceed 64 items. '
+                             '%d item/s too many' % (len(self._inventory) - _MAX_ITEMS))
         self._inventory = inventory
         self._attributes = attributes
         self._proficiencies = proficiencies
@@ -84,7 +92,7 @@ class Troop(GenericEntity):
         for inventory_item in self._inventory:
             result += "%d 0 " % compiler.index(inventory_item)
 
-        for i in range(64 - len(self._inventory)):
+        for i in range(_MAX_ITEMS - len(self._inventory)):
             result += "-1 0 "
         result += "\n "
 
