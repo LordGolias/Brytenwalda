@@ -98,6 +98,19 @@ def unused_shield_meshes(resources=None):
     return sorted(unused_shield_meshes)
 
 
+def unused_horse_meshes(resources=None):
+    if resources is None:
+        resources, _ = get_db()
+    used_resources = get_used_items_meshes()
+
+    unused_horse_meshes = []
+    for unused_mesh in sorted(resources - used_resources):
+        for x in ['horse']:
+            if x in unused_mesh.lower():
+                unused_horse_meshes.append(unused_mesh)
+    return sorted(unused_horse_meshes)
+
+
 if __name__ == '__main__':
 
     resources, _ = get_db()
@@ -111,3 +124,8 @@ if __name__ == '__main__':
     print('unused shields: %d' % len(unused_shield_meshes))
     for x in unused_shield_meshes:
         print(x)
+
+    # unused_horse_meshes = unused_horse_meshes()
+    # print('unused horses: %d' % len(unused_horse_meshes))
+    # for x in unused_horse_meshes:
+    #     print(x)
