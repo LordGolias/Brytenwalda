@@ -4100,7 +4100,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_7", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_21", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_infantryt5_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_3", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_2", "trp_irish_infantryt5_multiplayer2"),
 
@@ -4313,7 +4312,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_5", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_21", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_infantryt5_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_3", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_1", "trp_irish_infantryt5_multiplayer7"),
 
@@ -6163,7 +6161,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_7", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_21", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_tropa19"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_3", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_2", "trp_tropa19"),
 
@@ -6394,7 +6391,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_5", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_21", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_tropa32"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_3", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_1", "trp_tropa32"),
 

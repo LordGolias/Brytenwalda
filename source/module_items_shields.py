@@ -226,7 +226,7 @@ shields['banner'][1]['light'] += ['itm_shield_banner_kite_1']
 _name = "Small Gaelic Shield"
 lvl0_pict_light_shields = [
     ["shield_gaelic_small_2", _name, [("buckler2", 0)]] + shield_properties(0, 30, True) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_small_3", _name, [("buckler3", 0)]] + shield_properties(0, 30, True) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_small_3", _name, [("buckler20", 0)]] + shield_properties(0, 30, True) + [[], pict_factions + irish_factions],
     ["shield_gaelic_small_4", _name, [("buckler4", 0)]] + shield_properties(0, 30, True) + [[], pict_factions + irish_factions],
     ["shield_gaelic_small_5", _name, [("buckler5", 0)]] + shield_properties(0, 30, True) + [[], pict_factions + irish_factions],
 ]
@@ -236,16 +236,16 @@ shields['pict'][0]['light'] += ['itm_' + x[0] for x in lvl0_pict_light_shields]
 # lvl 0 normal shields
 _name = "Gaelic Shield"
 lvl0_pict_normal_shields = [
-    ["shield_gaelic_a", _name, [("shield_gaelic_a", 0)]] + shield_properties(0, 60, True) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_b", _name, [("shield_gaelic_b", 0)]] + shield_properties(0, 60, True) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_c", _name, [("shield_gaelic_c", 0)]] + shield_properties(0, 60, True) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_d", _name, [("shield_gaelic_d", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_e", _name, [("shield_gaelic_e", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_f", _name, [("shield_gaelic_f", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_g", _name, [("shield_gaelic_g", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_h", _name, [("shield_gaelic_h", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_i", _name, [("shield_gaelic_i", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
-    ["shield_gaelic_j", _name, [("shield_gaelic_j", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_a", _name, [("Gaelic_Shield_a", 0)]] + shield_properties(0, 60, True) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_b", _name, [("Gaelic_Shield_b2", 0)]] + shield_properties(0, 60, True) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_c", _name, [("Gaelic_Shield_b3", 0)]] + shield_properties(0, 60, True) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_d", _name, [("Gaelic_Shield_c2", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_e", _name, [("Gaelic_Shield_c3", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_f", _name, [("Gaelic_Shield_f", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_g", _name, [("Gaelic_Shield_g", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_h", _name, [("Gaelic_Shield_h", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_i", _name, [("Gaelic_Shield_i", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
+    ["shield_gaelic_j", _name, [("Gaelic_Shield_j", 0)]] + shield_properties(0, 60) + [[], pict_factions + irish_factions],
 ]
 items += lvl0_pict_normal_shields
 shields['pict'][0]['normal'] = ['itm_' + x[0] for x in lvl0_pict_normal_shields]
@@ -335,19 +335,12 @@ lvl2_pict_light_shields = [
     ["shield_square_12", _name, [("vae_cuadrado_12", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_13", _name, [("vae_cuadrado_13", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_14", _name, [("vae_cuadrado_14", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_15", _name, [("vae_cuadrado_15", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_16", _name, [("vae_cuadrado_16", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_17", _name, [("vae_cuadrado_17", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_18", _name, [("vae_cuadrado_18", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_19", _name, [("vae_cuadrado_19", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_20", _name, [("vae_cuadrado_20", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_21", _name, [("vae_cuadrado_21", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_22", _name, [("vae_cuadrado_22", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_23", _name, [("vae_cuadrado_22", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_24", _name, [("vae_cuadrado_22", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_25", _name, [("vae_cuadrado_25", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_26", _name, [("vae_cuadrado_26", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
-    ["shield_square_27", _name, [("vae_cuadrado_27", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
     ["shield_square_28", _name, [("vae_cuadrado_28", 0)]] + shield_properties(2, 40) + [[], pict_factions + irish_factions],
 ]
 items += lvl2_pict_light_shields
@@ -356,28 +349,20 @@ shields['pict'][2]['light'] = ['itm_' + x[0] for x in lvl2_pict_light_shields]
 # lvl 2 normal shields
 _name = "Pict Shield"
 lvl2_pict_normal_shields = [
-    # ["shield_caledonian_dog", _name, [("caledonian_shield_dog", 0)]] + shield_properties(1, 60) + [[], pict_factions + irish_factions],
-    # ["shield_caledonian_raven", _name, [("caledonian_shield_raven", 0)]] + shield_properties(1, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_1", _name, [("vae_caledonian_shield1", 0)]] + shield_properties(2, 60, True) + [[], pict_factions + irish_factions],
     ["shield_caledonian_2", _name, [("vae_caledonian_shield2", 0)]] + shield_properties(2, 60, True) + [[], pict_factions + irish_factions],
-    ["shield_caledonian_3", _name, [("vae_caledonian_shield3", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
-    ["shield_caledonian_4", _name, [("vae_caledonian_shield4", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_5", _name, [("vae_caledonian_shield5", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_6", _name, [("vae_caledonian_shield6", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
-    ["shield_caledonian_7", _name, [("vae_caledonian_shield7", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_8", _name, [("vae_caledonian_shield8", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_9", _name, [("vae_caledonian_shield9", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_10", _name, [("vae_caledonian_shield10", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_11", _name, [("vae_caledonian_shield11", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_12", _name, [("vae_caledonian_shield12", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
-    ["shield_caledonian_13", _name, [("vae_caledonian_shield13", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_caledonian_14", _name, [("vae_caledonian_shield14", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
-    ["shield_caledonian_15", _name, [("vae_caledonian_shield15", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
 
     ["shield_pict_c_1", _name, [("vae_scyld1", 0)]] + shield_properties(2, 60, True) + [[], pict_factions + irish_factions],
     ["shield_pict_c_2", _name, [("vae_scyld2", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_pict_c_3", _name, [("vae_scyld3", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
-    ["shield_pict_c_4", _name, [("vae_scyld4", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_pict_c_5", _name, [("vae_scyld5", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_pict_c_6", _name, [("vae_scyld6", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
     ["shield_pict_c_7", _name, [("vae_scyld7", 0)]] + shield_properties(2, 60) + [[], pict_factions + irish_factions],
@@ -601,7 +586,6 @@ lvl3_cantabrian_heavy_shields = [
     ["shield_cantabro_6", _name, [("cantabro_shield_6", 0)]] + shield_properties(3, 70),
     ["shield_cantabro_7", _name, [("cantabro_shield_7", 0)]] + shield_properties(3, 70),
     ["shield_cantabro_8", _name, [("cantabro_shield_8", 0)]] + shield_properties(3, 70),
-    ["shield_cantabro_9", _name, [("cantabro_shield_9", 0)]] + shield_properties(3, 70),
     ["shield_cantabro_10", _name, [("cantabro_shield_10", 0)]] + shield_properties(3, 70),
 ]
 items += lvl3_cantabrian_heavy_shields
