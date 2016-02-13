@@ -239,7 +239,7 @@ items = [
 ["quest_ale","Ale", [("ale_barrel",0)], itp_type_goods, 0, 31,weight(40)|abundance(60)|max_ammo(50),imodbits_none],
 ]
 
-items += module_items_horses.horses
+items += module_items_horses.items
 
 items += [
 

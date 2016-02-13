@@ -14,7 +14,7 @@ from source.module_constants import spt_town, dplmc_spt_recruiter, \
     npc_kingdoms_begin, npc_kingdoms_end, \
     svs_looted, svs_being_raided, \
     villages_begin, villages_end, centers_begin, centers_end
-
+from source.module_items_horses import horses
 
 PRICE_TO_RECRUIT = 10
 PRICE_PER_RECRUIT = 20
@@ -472,7 +472,7 @@ simple_triggers = [
 
 
 troops = [
-    ["recruiter","Recruiter","Recruiter",tf_mounted|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_gloves|tf_guarantee_horse|tf_guarantee_ranged,0,0,'fac_neutral',['itm_spathaswordt2','itm_leather_tunic1','itm_leather_boots1','itm_horsecourser2','itm_leather_gloves1','itm_pict_crossbow','itm_bolts'],def_attrib|agi_21|int_30|cha_21|level(25),wp(130),knows_common|knows_riding_7|knows_horse_archery_5|knows_leadership_7,swadian_face_young_1,swadian_face_old_2],
+    ["recruiter","Recruiter","Recruiter",tf_mounted|tf_guarantee_boots|tf_guarantee_armor|tf_guarantee_gloves|tf_guarantee_horse|tf_guarantee_ranged,0,0,'fac_neutral',['itm_spathaswordt2','itm_leather_tunic1','itm_leather_boots1','itm_leather_gloves1','itm_pict_crossbow','itm_bolts'] + horses[1]['light'],def_attrib|agi_21|int_30|cha_21|level(25),wp(130),knows_common|knows_riding_7|knows_horse_archery_5|knows_leadership_7,swadian_face_young_1,swadian_face_old_2],
 ]
 
 party_templates = [

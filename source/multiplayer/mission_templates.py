@@ -3806,8 +3806,6 @@ resta_fatigue_multi,
            (player_get_item_id, ":item_id", ":player_no", ek_horse),
            (try_begin),
              (this_or_next|is_between, ":item_id", horses_begin, horses_end),
-             (this_or_next|eq, ":item_id", "itm_horsecourser1"),
-             (eq, ":item_id", "itm_fastwarhorset3"),
              (assign, ":player_is_horseman", 1),
            (try_end),
 

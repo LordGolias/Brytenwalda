@@ -6014,8 +6014,6 @@ scripts = [
      (assign, ":default_item", 0),
      (try_begin),
        (neg|is_between, ":item_no", horses_begin, horses_end),
-       (neq, ":item_no", "itm_horsecourser1"),
-       (neq, ":item_no", "itm_fastwarhorset3"),
 
        (troop_get_inventory_capacity, ":end_cond", ":troop_no"), #troop no can come -1 here error occured at friday
        (try_for_range, ":i_slot", 0, ":end_cond"),

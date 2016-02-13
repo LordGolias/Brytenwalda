@@ -301,8 +301,7 @@ grant_fief_dialogs = [
          (call_script, "script_check_concilio_calradi_achievement"),
 
          # add items to troop
-         (troop_add_item, "$g_talk_troop", "itm_frankishhorse1", 0),
-         (troop_add_item, "$g_talk_troop", "itm_horsecourser2", 0),
+         (troop_add_item, "$g_talk_troop", "itm_horse_1n_1", 0),
          (troop_add_item, "$g_talk_troop", "itm_rednorthmanshirt", 0),
          (troop_add_item, "$g_talk_troop", "itm_mailtunic_brown", 0),
          (troop_add_item, "$g_talk_troop", "itm_bishop_robe1", 0),

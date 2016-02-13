@@ -43,7 +43,7 @@ start_menu_0 = \
               (troop_raise_proficiency_linear, "trp_player", wp(100), 10),
               (troop_add_item, "trp_player", "itm_spear2", 1),
               (troop_add_item, "trp_player", "itm_noblearmor21res", 0),
-              (troop_add_item, "trp_player", "itm_roman_horse1", 0),
+              (troop_add_item, "trp_player", "itm_horse_2l_1", 0),
               (troop_equip_items, "trp_player"),
 
               (add_xp_to_troop, 1000, "trp_player"),

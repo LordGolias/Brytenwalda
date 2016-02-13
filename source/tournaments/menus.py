@@ -25,9 +25,8 @@ menus = [
 
         (try_begin),
             (eq, ":rand", 0),
-            (troop_add_item, "trp_player", "itm_warhorse1", 0),
-            (display_message, "@A expensive and armoured greek horse is gift you "
-                              "for your victory.", 0xFF0000),
+            (troop_add_item, "trp_player", "itm_horse_1n_3", 0),
+            (display_message, "@An horse has been gifted to you for your victory.", 0xFF0000),
         (else_try),
             (eq, ":rand", 1),
             (troop_add_item, "trp_player", "itm_barbed_arrows", 0),

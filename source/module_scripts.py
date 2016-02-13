@@ -6183,19 +6183,19 @@ scripts = [
    (else_try), #burros
 #(eq, "$g_armor_penalties", 0),
       (eq, ":skill_no", "skl_inventory_management"),
-          (call_script, "script_get_troop_item_amount", ":troop_no", "itm_donkey_horse1"),
+          (call_script, "script_get_troop_item_amount", ":troop_no", "itm_horse_donkey_1"),
           (gt, reg0, 0),
       (val_add, ":modifier_value", 1),#suma 1
    (else_try), #burros
       #(eq, "$g_armor_penalties", 0),
       (eq, ":skill_no", "skl_foraging"),
-          (call_script, "script_get_troop_item_amount", ":troop_no", "itm_donkey_horse1"),
+          (call_script, "script_get_troop_item_amount", ":troop_no", "itm_horse_donkey_1"),
           (gt, reg0, 0),
       (val_add, ":modifier_value", 1),#suma 1
    (else_try), #burros
       #(eq, "$g_armor_penalties", 0),
         (eq, ":skill_no", "skl_inventory_management"),
-            (call_script, "script_get_troop_item_amount", ":troop_no", "itm_mulehorse"),
+            (call_script, "script_get_troop_item_amount", ":troop_no", "itm_horse_mule_1"),
             (gt, reg0, 0),
         (val_add, ":modifier_value", 1),#suma 1
    (else_try), #mercaderes
@@ -7313,9 +7313,7 @@ scripts = [
           (is_between, ":item_id", trade_goods_begin, trade_goods_end),
           (assign, ":randomness", 20),
         (else_try),
-          (this_or_next|is_between, ":item_id", horses_begin, horses_end),
-          (this_or_next|eq, ":item_id", "itm_horsecourser1"),
-          (eq, ":item_id", "itm_fastwarhorset3"),
+          (is_between, ":item_id", horses_begin, horses_end),
           (assign, ":randomness", 15),
         (else_try),
           (this_or_next|is_between, ":item_id", weapons_begin, weapons_end),
@@ -9039,7 +9037,7 @@ scripts = [
 ##     (assign, "$g_training_ground_training_troop_stack_index", ":stack_index"),
      (try_begin),
        (eq, "$g_mt_mode", ctm_mounted),
-       (assign, ":training_default_weapon_3", "itm_saddle_horse1"),
+       (assign, ":training_default_weapon_3", ARENA_HORSE),
        (store_add, "$g_training_ground_training_scene", "scn_training_ground_horse_track_1", "$g_encountered_party"),
        (val_sub, "$g_training_ground_training_scene", training_grounds_begin),
      (else_try),
@@ -49855,7 +49853,7 @@ Born at {s43}^Contact in {s44} of the {s45}.^\
 		(assign,":has_tools",0),
 		(try_for_range,":slot",0,":capacity"),
 			(troop_get_inventory_slot,":cur_item","trp_player",":slot"),
-			(eq,":cur_item","itm_pony_horse"),
+			(eq,":cur_item","itm_horse_pony"),
 			(val_add,":no_pony_horses",1),
 		(try_end),
 		(try_begin),

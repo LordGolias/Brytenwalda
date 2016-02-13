@@ -496,6 +496,7 @@ tutorial_fighters_end = "trp_tutorial_archer_1"
 
 # arena weapons
 ARENA_SHIELD = "itm_shield_gaelic_small_13"
+ARENA_HORSE = "itm_horse_1l_1"
 
 # Walker types:
 walkert_default = 0
@@ -794,7 +795,7 @@ readable_books_end = reference_books_begin
 books_begin = readable_books_begin
 books_end = reference_books_end
 
-horses_begin = "itm_pony_horse"
+horses_begin = "itm_horse_0l_1"
 horses_end = "itm_pilgrim_disguise"
 
 ranged_weapons_begin = "itm_darts"
@@ -1243,7 +1244,7 @@ yelmos_pesados2_begin = "itm_helmet_stripedt3"
 yelmos_pesados2_end = "itm_noheadhelm"
 calzado_pesados_begin = "itm_greaves1"
 calzado_pesados_end = "itm_cavalry_greaves"
-burro_begin = "itm_donkey_horse1"
+burro_begin = "itm_horse_donkey_1"
 burro_end = "itm_pilgrim_disguise"
 coronas_begin = "itm_crown_lombardy"
 coronas_end = "itm_leathercap1"
