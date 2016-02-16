@@ -5,7 +5,9 @@ from source.header_dialogs import *
 from source.header_items import ek_body, ek_foot
 from source.header_troops import tf_hero, tf_male, knight_attrib_4, wp
 from source.header_skills import *
+
 from source.module_constants import *
+from source.module_items_footwear import footwear
 
 from source.statement import StatementBlock
 
@@ -143,7 +145,7 @@ consequences_staff_salary = StatementBlock(
 scripts = [
     ("dplmc_appoint_constable", [
         (troop_set_inventory_slot, "trp_dplmc_constable", ek_body, "itm_dplmc_coat_of_plates_red_constable"),
-        (troop_set_inventory_slot, "trp_dplmc_constable", ek_foot, "itm_leather_boots1"),
+        (troop_set_inventory_slot, "trp_dplmc_constable", ek_foot, "itm_footwear_1c_1"),
         (assign, "$g_player_constable", "trp_dplmc_constable"),
   ]),
 ] \
@@ -462,7 +464,7 @@ dialogs = [
 
 
 troops = [
-    ["dplmc_constable", "Constable Sextus", "Constables", tf_hero|tf_male, 0, 0, 'fac_commoners', ['itm_mailbyrniegreen', 'itm_ankleboots'], knight_attrib_4, wp(200), knows_common|knows_trainer_9|knows_shield_3|knows_ironflesh_3|knows_power_strike_4|knows_athletics_4, 0x0000000b4b1015054b1b4d591cba28d300000000001e472b0000000000000000]
+    ["dplmc_constable", "Constable Sextus", "Constables", tf_hero|tf_male, 0, 0, 'fac_commoners', ['itm_mailbyrniegreen'] + footwear[1]['civilian'], knight_attrib_4, wp(200), knows_common|knows_trainer_9|knows_shield_3|knows_ironflesh_3|knows_power_strike_4|knows_athletics_4, 0x0000000b4b1015054b1b4d591cba28d300000000001e472b0000000000000000]
 ] \
     + scouts.troops \
     + recruit.troops \

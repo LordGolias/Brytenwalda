@@ -559,35 +559,6 @@ scripts = [
       (item_set_slot, "itm_greypantsbody_woad01", "slot_item_multiplayer_item_class", multi_item_class_type_light_armor),
       (item_set_slot, "itm_blackpantsbody_woad10", "slot_item_multiplayer_item_class", multi_item_class_type_light_armor),
 
-      #boots
-      (item_set_slot, "itm_cheap_shoes", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_ankleboots", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_leather_shoes", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes2bare", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes2bare", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes1", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes1", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes1green", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes1blue", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes1blue", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes1green", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes2grey", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_shoes2grey", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_greaves1", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_splinted_leather_greaves", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_greaves1", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_light_leather_boots", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_noble_shoesorange", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-      (item_set_slot, "itm_noble_shoesorange", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_shoes2green", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_leather_bootstall", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_greaves1", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_noble_shoesblue", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_noble_shoesorange", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_noble_shoesorange", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-	  (item_set_slot, "itm_splinted_leather_greaves", "slot_item_multiplayer_item_class", multi_item_class_type_light_foot),
-
-
       #helmets
       (item_set_slot, "itm_plaincloakltblue", "slot_item_multiplayer_item_class", multi_item_class_type_light_helm),
       (item_set_slot, "itm_plaincloakbeige", "slot_item_multiplayer_item_class", multi_item_class_type_light_helm),
@@ -701,7 +672,7 @@ scripts = [
       #1a-Swadian Crossbowman britones
 #arqueros britones################################
       #1
-      # ['itm_throwing_spear','itm_noble_shoesblue','itm_shoes2green','itm_shoes2grey','itm_shoes1','itm_mailbyrniegrey',
+      # ['itm_throwing_spear','itm_noble_shoesblue','itm_shoes2green','itm_shoes1','itm_mailbyrniegrey',
         # 'itm_mailbyrniewhitered','itm_mailbyrnieblue','itm_mail_sleevelessbrn','itm_noblearmor7res','itm_mailbyrnie_longfurred',
         # 'itm_mailcuir_bouilli','itm_mail_largering','itm_linen_coatblue','itm_spear_blade2t2','itm_spear_blade2t2',
         # 'itm_knife1','itm_britonswordt2','itm_arming_cap','itm_roman_helmlate'] + items_shields['briton'][1]['heavy']
@@ -731,8 +702,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic5", "trp_briton_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer"),
@@ -766,9 +735,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt1", "trp_briton_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer2"),
 
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer2"),
@@ -800,10 +766,6 @@ scripts = [
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt1", "trp_briton_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer3"),
@@ -837,9 +799,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic5", "trp_briton_infantryt4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_farmertunic26", "trp_briton_infantryt4_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer4"),
@@ -872,9 +831,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_tunicsleevelessb", "trp_briton_infantryt4_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic9", "trp_briton_infantryt4_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer5"),
@@ -907,9 +863,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic5", "trp_briton_infantryt4_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_farmertunic26", "trp_briton_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer6"),
@@ -941,10 +894,6 @@ scripts = [
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt1", "trp_briton_infantryt4_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer7"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer7"),
@@ -976,10 +925,6 @@ scripts = [
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt1", "trp_briton_infantryt4_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer8"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer8"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer8"),
@@ -1011,10 +956,6 @@ scripts = [
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt1", "trp_briton_infantryt4_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer9"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer9"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer9"),
@@ -1047,9 +988,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic5", "trp_briton_infantryt4_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_farmertunic26", "trp_briton_infantryt4_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer10"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer10"),
@@ -1082,9 +1020,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic5", "trp_briton_infantryt4_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_farmertunic26", "trp_briton_infantryt4_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer11"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer11"),
@@ -1118,9 +1053,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer12"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunicwhite", "trp_briton_infantryt4_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer12"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer12"),
@@ -1152,10 +1084,6 @@ scripts = [
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt1", "trp_briton_infantryt4_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer13"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer13"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer13"),
@@ -1188,9 +1116,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_skullcap_reinforcedt2", "trp_briton_infantryt4_multiplayer14"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_farmertunic26", "trp_briton_infantryt4_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer14"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer14"),
@@ -1223,9 +1148,6 @@ scripts = [
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunicwhite", "trp_briton_infantryt4_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic3", "trp_briton_infantryt4_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_briton_infantryt4_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_briton_infantryt4_multiplayer15"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblu", "trp_briton_infantryt4_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewblk", "trp_briton_infantryt4_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hoodnewwht", "trp_briton_infantryt4_multiplayer15"),
@@ -1275,12 +1197,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer"),
-
 ###
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer"),
@@ -1326,12 +1242,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer2"),
@@ -1375,12 +1285,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer3"),
@@ -1424,12 +1328,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer4"),
@@ -1473,12 +1371,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer5"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer5"),
@@ -1522,12 +1414,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer6"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer6"),
@@ -1571,12 +1457,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer7"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer7"),
@@ -1620,12 +1500,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer8"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer8"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer8"),
@@ -1669,12 +1543,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer9"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer9"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer9"),
@@ -1718,12 +1586,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer10"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer10"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer10"),
@@ -1768,12 +1630,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer11"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer11"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer11"),
@@ -1817,12 +1673,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer12"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer12"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer12"),
@@ -1866,12 +1716,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer13"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer13"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer13"),
@@ -1915,12 +1759,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer14"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer14"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_briton_skirmishert3_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer14"),
@@ -1964,12 +1802,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_briton_skirmishert3_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_briton_skirmishert3_multiplayer15"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_briton_skirmishert3_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_briton_skirmishert3_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_briton_skirmishert3_multiplayer15"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_briton_skirmishert3_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_briton_skirmishert3_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_briton_skirmishert3_multiplayer15"),
@@ -2003,12 +1835,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer"),
@@ -2041,11 +1867,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer2"),
@@ -2077,11 +1898,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer3"),
@@ -2113,11 +1929,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_linen_coattan", "trp_briton_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer4"),
@@ -2149,11 +1960,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer5"),
@@ -2185,11 +1991,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer6"),
@@ -2221,11 +2022,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer7"),
@@ -2257,11 +2053,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer8"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer8"),
@@ -2293,11 +2084,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer9"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer9"),
@@ -2329,11 +2115,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer10"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer10"),
@@ -2365,11 +2146,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer11"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer11"),
@@ -2401,11 +2177,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer12"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer12"),
@@ -2437,11 +2208,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer13"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer13"),
@@ -2473,11 +2239,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_linen_coattan", "trp_briton_horseman_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_briton_horseman_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer14"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_briton_horseman_multiplayer14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_briton_horseman_multiplayer14"),
@@ -2509,11 +2270,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_briton_horseman_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_briton_horseman_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_briton_horseman_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_briton_horseman_multiplayer15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_briton_horseman_multiplayer15"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_briton_horseman_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_briton_horseman_multiplayer15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_briton_horseman_multiplayer15"),
@@ -2537,10 +2293,7 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic2", "trp_saxon_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mercia_tunicgrn", "trp_saxon_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic1", "trp_saxon_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_saxon_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_saxon_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_saxon_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblu", "trp_saxon_infantryt4_multiplayer"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblu", "trp_saxon_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_red", "trp_saxon_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newgrn", "trp_saxon_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap", "trp_saxon_infantryt4_multiplayer"),
@@ -2564,10 +2317,7 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic2", "trp_saxon_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mercia_tunicgrn", "trp_saxon_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic1", "trp_saxon_infantryt4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_saxon_infantryt4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_saxon_infantryt4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_saxon_infantryt4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblu", "trp_saxon_infantryt4_multiplayer2"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblu", "trp_saxon_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_red", "trp_saxon_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newgrn", "trp_saxon_infantryt4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap", "trp_saxon_infantryt4_multiplayer2"),
@@ -2591,10 +2341,7 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic2", "trp_saxon_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mercia_tunicgrn", "trp_saxon_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic1", "trp_saxon_infantryt4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_saxon_infantryt4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_saxon_infantryt4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_saxon_infantryt4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblu", "trp_saxon_infantryt4_multiplayer3"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblu", "trp_saxon_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_red", "trp_saxon_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newgrn", "trp_saxon_infantryt4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap", "trp_saxon_infantryt4_multiplayer3"),
@@ -2639,11 +2386,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat2", "trp_vaegir_spearman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_vaegir_spearman_multiplayer"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brown", "trp_vaegir_spearman_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_vaegir_spearman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_vaegir_spearman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_vaegir_spearman_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_vaegir_spearman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_vaegir_spearman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_vaegir_spearman_multiplayer"),
@@ -2686,11 +2428,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_vest_red", "trp_vaegir_spearman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_vaegir_spearman_multiplayer2"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brown", "trp_vaegir_spearman_multiplayer2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_vaegir_spearman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_vaegir_spearman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_vaegir_spearman_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_vaegir_spearman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_vaegir_spearman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_vaegir_spearman_multiplayer2"),
@@ -2732,11 +2469,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_vest_green", "trp_vaegir_spearman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_vaegir_spearman_multiplayer3"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brown", "trp_vaegir_spearman_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_vaegir_spearman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_vaegir_spearman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_vaegir_spearman_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_vaegir_spearman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_vaegir_spearman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_vaegir_spearman_multiplayer3"),
@@ -2771,11 +2503,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessex_tunic4", "trp_frisian_spearman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_blue_shorttunic2", "trp_frisian_spearman_multiplayer3"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_frisian_spearman_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_frisian_spearman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_frisian_spearman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_frisian_spearman_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_dena_helmboar5", "trp_frisian_spearman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_dena_helmboar3", "trp_frisian_spearman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm1", "trp_frisian_spearman_multiplayer3"),
@@ -2812,12 +2539,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor16res", "trp_saxon_horseman1_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat3", "trp_saxon_horseman1_multiplayer"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailshirt_3_trig", "trp_saxon_horseman1_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_saxon_horseman1_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_saxon_horseman1_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_saxon_horseman1_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_saxon_horseman1_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_saxon_horseman1_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma1", "trp_saxon_horseman1_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm3t2", "trp_saxon_horseman1_multiplayer"),
@@ -2852,11 +2573,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor16res", "trp_saxon_horseman1_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat3", "trp_saxon_horseman1_multiplayer2"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailshirt_3_trig", "trp_saxon_horseman1_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_saxon_horseman1_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_saxon_horseman1_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_saxon_horseman1_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_saxon_horseman1_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_saxon_horseman1_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma1", "trp_saxon_horseman1_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm3t2", "trp_saxon_horseman1_multiplayer2"),
@@ -2892,11 +2608,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor16res", "trp_saxon_horseman1_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat3", "trp_saxon_horseman1_multiplayer3"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailshirt_3_trig", "trp_saxon_horseman1_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_saxon_horseman1_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_saxon_horseman1_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_saxon_horseman1_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_saxon_horseman1_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_saxon_horseman1_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma1", "trp_saxon_horseman1_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm3t2", "trp_saxon_horseman1_multiplayer3"),
@@ -2930,10 +2641,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_11", "trp_pict_horsesquiret3_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_24", "trp_pict_horsesquiret3_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_2", "trp_pict_horsesquiret3_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_pict_horsesquiret3_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_pict_horsesquiret3_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_war_paintbody_two", "trp_pict_horsesquiret3_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bluepantsbody_woad05", "trp_pict_horsesquiret3_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_tunicsleeveless8", "trp_pict_horsesquiret3_multiplayer"),
@@ -2969,11 +2676,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_8", "trp_pict_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_a_4", "trp_pict_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_a_5", "trp_pict_skirmishert4_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_pict_skirmishert4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_pict_skirmishert4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_bootstall", "trp_pict_skirmishert4_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bluepantsbody_woad04", "trp_pict_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_richlong_tunic3", "trp_pict_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_redpantsbody_woad11", "trp_pict_skirmishert4_multiplayer"),
@@ -2995,9 +2697,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_1", "trp_khergit_horse_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_7", "trp_khergit_horse_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_12", "trp_khergit_horse_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_khergit_horse_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_khergit_horse_multiplayer"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bluepantsbody_woad02t2", "trp_khergit_horse_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hide_coat6", "trp_khergit_horse_multiplayer"),
@@ -3027,9 +2726,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_arrows1", "trp_engle_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shortbow", "trp_engle_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_huntingbow", "trp_engle_skirmishert5_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_engle_skirmishert5_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_engle_skirmishert5_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_peasant_ftunic", "trp_engle_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunicwhite", "trp_engle_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic12", "trp_engle_skirmishert5_multiplayer"),
@@ -3058,9 +2754,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_arrows1", "trp_engle_skirmishert5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shortbow", "trp_engle_skirmishert5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_huntingbow", "trp_engle_skirmishert5_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_engle_skirmishert5_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_engle_skirmishert5_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_tunic2", "trp_engle_skirmishert5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic2", "trp_engle_skirmishert5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mercia_tunicgrn", "trp_engle_skirmishert5_multiplayer2"),
@@ -3090,9 +2783,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_arrows1", "trp_engle_skirmishert5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shortbow", "trp_engle_skirmishert5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_huntingbow", "trp_engle_skirmishert5_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_engle_skirmishert5_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_engle_skirmishert5_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic1", "trp_engle_skirmishert5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_peasant_etunic", "trp_engle_skirmishert5_multiplayer3"),
 
@@ -3122,9 +2812,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_arrows1", "trp_engle_skirmishert5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shortbow", "trp_engle_skirmishert5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_huntingbow", "trp_engle_skirmishert5_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_engle_skirmishert5_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_engle_skirmishert5_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunicwhite", "trp_engle_skirmishert5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic12", "trp_engle_skirmishert5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mercia_tunicgrn", "trp_engle_skirmishert5_multiplayer4"),
@@ -3167,11 +2854,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_engle_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_engle_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_engle_skirmishert4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_engle_skirmishert4_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_engle_skirmishert4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_engle_skirmishert4_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_engle_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_engle_skirmishert4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brownclk", "trp_engle_skirmishert4_multiplayer"),
@@ -3213,11 +2895,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_engle_skirmishert4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_engle_skirmishert4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_engle_skirmishert4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_engle_skirmishert4_multiplayer2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_engle_skirmishert4_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_engle_skirmishert4_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_engle_skirmishert4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_engle_skirmishert4_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_olive", "trp_engle_skirmishert4_multiplayer2"),
@@ -3257,11 +2934,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_engle_skirmishert4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_engle_skirmishert4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_engle_skirmishert4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_engle_skirmishert4_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_engle_skirmishert4_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_engle_skirmishert4_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_engle_skirmishert4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_engle_skirmishert4_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_gry", "trp_engle_skirmishert4_multiplayer3"),
@@ -3301,11 +2973,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_engle_skirmishert4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_engle_skirmishert4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_engle_skirmishert4_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_engle_skirmishert4_multiplayer4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_engle_skirmishert4_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_engle_skirmishert4_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_engle_skirmishert4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_engle_skirmishert4_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_wht", "trp_engle_skirmishert4_multiplayer4"),
@@ -3347,11 +3014,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_hasta", "trp_dena_veteran_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_battle_axe2ht2", "trp_dena_veteran_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_hvy", "trp_dena_veteran_multiplayer4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_dena_veteran_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_dena_veteran_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_dena_veteran_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_olive", "trp_dena_veteran_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_gry", "trp_dena_veteran_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_dena_veteran_multiplayer4"),
@@ -3380,18 +3042,12 @@ scripts = [
       #4b-Nord Scout
        #1
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_nord_scout_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_nord_scout_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_nord_scout_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_nord_scout_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_nord_scout_multiplayer"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_nord_scout_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_nord_scout_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_24", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_saxon_18", "trp_nord_scout_multiplayer"),
@@ -3418,16 +3074,12 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearwarlong", "trp_nord_scout_multiplayer"),
        #2
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_nord_scout_multiplayer2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_nord_scout_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_nord_scout_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer2"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_nord_scout_multiplayer2"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_nord_scout_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_nord_scout_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_nord_scout_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer2"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_20", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_9", "trp_nord_scout_multiplayer"),
 
@@ -3453,15 +3105,11 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearwarlong", "trp_nord_scout_multiplayer2"),
        #3
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_nord_scout_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_nord_scout_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_nord_scout_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer3"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_nord_scout_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_nord_scout_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_nord_scout_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_nord_scout_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer3"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_9", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_40", "trp_nord_scout_multiplayer"),
 
@@ -3487,15 +3135,11 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearwarlong", "trp_nord_scout_multiplayer3"),
        #4
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_nord_scout_multiplayer4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_nord_scout_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_nord_scout_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer4"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_nord_scout_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_nord_scout_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_nord_scout_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_nord_scout_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_nord_scout_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer4"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_nord_scout_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_20", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_42", "trp_nord_scout_multiplayer"),
 
@@ -3538,11 +3182,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_20", "trp_irish_horseman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_19", "trp_irish_horseman_multiplayer"),
@@ -3579,11 +3218,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_21", "trp_irish_horseman_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_12", "trp_irish_horseman_multiplayer2"),
@@ -3620,11 +3254,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_22", "trp_irish_horseman_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_14", "trp_irish_horseman_multiplayer3"),
@@ -3660,11 +3289,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_23", "trp_irish_horseman_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_16", "trp_irish_horseman_multiplayer4"),
@@ -3700,11 +3324,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer5"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_24", "trp_irish_horseman_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_19", "trp_irish_horseman_multiplayer5"),
@@ -3741,11 +3360,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer6"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_24", "trp_irish_horseman_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_19", "trp_irish_horseman_multiplayer6"),
@@ -3781,11 +3395,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_clubsmooth", "trp_irish_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordt1", "trp_irish_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scianshswordbone", "trp_irish_horseman_multiplayer7"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_irish_horseman_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_small_20", "trp_irish_horseman_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_b_19", "trp_irish_horseman_multiplayer7"),
@@ -3835,11 +3444,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_irish_infantryt5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_1", "trp_irish_infantryt5_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer"),
@@ -3876,11 +3480,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_10", "trp_scoti_sergeant_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_c_1", "trp_scoti_sergeant_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_a", "trp_scoti_sergeant_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_scoti_sergeant_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_scoti_sergeant_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_scoti_sergeant_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_linen_coatblue", "trp_scoti_sergeant_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_german_tunic2", "trp_scoti_sergeant_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic1", "trp_scoti_sergeant_multiplayer"),
@@ -3915,11 +3514,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_2", "trp_irish_infantryt5_multiplayer2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer2"),
@@ -3957,11 +3551,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_irish_infantryt5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_3", "trp_irish_infantryt5_multiplayer3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer3"),
@@ -3999,11 +3588,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_5", "trp_irish_infantryt5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_6", "trp_irish_infantryt5_multiplayer4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer4"),
@@ -4041,11 +3625,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_irish_infantryt5_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_6", "trp_irish_infantryt5_multiplayer5"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer5"),
@@ -4086,11 +3665,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_infantryt5_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_irish_infantryt5_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_3", "trp_irish_infantryt5_multiplayer6"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer6"),
@@ -4127,11 +3701,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_1", "trp_irish_infantryt5_multiplayer7"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_infantryt5_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_infantryt5_multiplayer7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_irish_infantryt5_multiplayer7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_irish_infantryt5_multiplayer7"),
@@ -4184,10 +3753,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_h", "trp_irish_horseman_multiplayer"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer"),
        #2
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_irish_horseman_multiplayer2"),
@@ -4226,9 +3791,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_7", "trp_irish_horseman_multiplayer2"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer2"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer2"),
        #3
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_irish_horseman_multiplayer3"),
@@ -4267,9 +3829,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_irish_horseman_multiplayer3"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer3"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer3"),
        #4
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_irish_horseman_multiplayer4"),
@@ -4308,9 +3867,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_irish_horseman_multiplayer4"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer4"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer4"),
        #5
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_irish_horseman_multiplayer5"),
@@ -4351,9 +3907,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_c_5", "trp_irish_horseman_multiplayer5"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer5"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer5"),
        #6
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_irish_horseman_multiplayer6"),
@@ -4394,9 +3947,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_irish_horseman_multiplayer6"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer6"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer6"),
        #7
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_irish_horseman_multiplayer7"),
@@ -4436,9 +3986,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_irish_horseman_multiplayer7"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_irish_horseman_multiplayer7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_irish_horseman_multiplayer7"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_irish_horseman_multiplayer7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_irish_horseman_multiplayer7"),
 
       #6-Sarranid Warriors
@@ -4447,10 +3994,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shortbow", "trp_jute_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_huntingbow", "trp_jute_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_jute_infantryt4_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_jute_infantryt4_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cheap_shoes", "trp_jute_infantryt4_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_jute_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_jute_infantryt4_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap", "trp_jute_infantryt4_multiplayer"),
@@ -4480,12 +4023,6 @@ scripts = [
    #   (call_script, "script_multiplayer_set_item_available_for_troop", "itm_light_throwing_axes", "trp_jute_footmant2_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angonst2", "trp_jute_footmant2_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_jute_footmant2_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_jute_footmant2_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_jute_footmant2_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1orange", "trp_jute_footmant2_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_jute_footmant2_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_jute_footmant2_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_helm_tan", "trp_jute_footmant2_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hornhelmet1", "trp_jute_footmant2_multiplayer"),
@@ -4527,10 +4064,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_frankish_footman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_throwing_axes", "trp_frankish_footman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angons", "trp_frankish_footman_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_frankish_footman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_frankish_footman_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmb1", "trp_frankish_footman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma_yellow", "trp_frankish_footman_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_frankish_footman_multiplayer"),
@@ -4563,10 +4096,6 @@ scripts = [
 	  #Sarranid mamluke
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_jute_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_throwing_axes", "trp_jute_skirmishert5_multiplayer"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_jute_skirmishert5_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_jute_skirmishert5_multiplayer"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_jute_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_ltbrwnclk", "trp_jute_skirmishert5_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_vae_thickcoat3", "trp_jute_skirmishert5_multiplayer"),
@@ -4600,10 +4129,6 @@ scripts = [
 #chief capitan#capitan juto
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_capitan1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_throwing_axes", "trp_capitan1"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan1"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_capitan1"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_capitan1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_ltbrwnclk", "trp_capitan1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_vae_thickcoat3", "trp_capitan1"),
@@ -4638,12 +4163,6 @@ scripts = [
             (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_tropa1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angonst2", "trp_tropa1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_tropa1"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa1"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa1"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1orange", "trp_tropa1"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_tropa1"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_tropa1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_helm_tan", "trp_tropa1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hornhelmet1", "trp_tropa1"),
@@ -4684,10 +4203,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_cavaljavelins", "trp_mercenario1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_throwing_axes", "trp_mercenario1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angons", "trp_mercenario1"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_mercenario1"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_mercenario1"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmb1", "trp_mercenario1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma_yellow", "trp_mercenario1"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_mercenario1"),
@@ -4740,12 +4255,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor16res", "trp_capitan2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat3", "trp_capitan2"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailshirt_3_trig", "trp_capitan2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_capitan2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_capitan2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma1", "trp_capitan2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm3t2", "trp_capitan2"),
@@ -4782,11 +4291,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor16res", "trp_capitan3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat3", "trp_capitan3"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailshirt_3_trig", "trp_capitan3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_capitan3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_capitan3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma1", "trp_capitan3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm3t2", "trp_capitan3"),
@@ -4824,11 +4328,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor16res", "trp_capitan5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat3", "trp_capitan5"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailshirt_3_trig", "trp_capitan5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_capitan5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_capitan5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelma1", "trp_capitan5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm3t2", "trp_capitan5"),
@@ -4871,11 +4370,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_coat2", "trp_tropa2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_tropa2"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brown", "trp_tropa2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_tropa2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_tropa2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_tropa2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_tropa2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_tropa2"),
@@ -4918,11 +4412,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_vest_red", "trp_tropa3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_tropa3"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brown", "trp_tropa3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_tropa3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_tropa3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_tropa3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_tropa3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_tropa3"),
@@ -4964,11 +4453,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rawhide_vest_green", "trp_tropa5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noblearmor6res", "trp_tropa5"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brown", "trp_tropa5"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1", "trp_tropa5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_tropa5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_tropa5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_woolencap_newblk", "trp_tropa5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spangenhelmgerm_trim", "trp_tropa5"),
@@ -5001,11 +4485,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessex_tunic4", "trp_mercenario3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_blue_shorttunic2", "trp_mercenario3"),
 	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_mercenario3"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_mercenario3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_mercenario3"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_mercenario3"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_dena_helmboar5", "trp_mercenario3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_dena_helmboar3", "trp_mercenario3"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_frisian_helm1", "trp_mercenario3"),
@@ -5026,11 +4505,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_hasta", "trp_mercenario2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_battle_axe2ht2", "trp_mercenario2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_hvy", "trp_mercenario2"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_mercenario2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_mercenario2"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_mercenario2"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_olive", "trp_mercenario2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_gry", "trp_mercenario2"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_mercenario2"),
@@ -5056,18 +4530,12 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_mercenario2"),
        #1 capitan anglo       #1
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_capitan4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_capitan4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_capitan4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_capitan4"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_capitan4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_capitan4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan4"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan4"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_24", "trp_capitan4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_saxon_18", "trp_capitan4"),
@@ -5095,15 +4563,12 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan4"),
        #2
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_capitan9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_capitan9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan9"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_capitan9"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_capitan9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_capitan9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan9"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_20", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_9", "trp_nord_scout_multiplayer"),
 
@@ -5130,14 +4595,11 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan9"),
        #3
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_capitan13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_capitan13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan13"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_capitan13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_capitan13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_capitan13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan13"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_9", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_40", "trp_nord_scout_multiplayer"),
 
@@ -5164,14 +4626,11 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan13"),
        #4
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_javelins", "trp_capitan14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesblue", "trp_capitan14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan14"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorfadedblue", "trp_capitan14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_jack_armorgreen", "trp_capitan14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_lorica_pink", "trp_capitan14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_knisxclearvert3", "trp_capitan14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_capitan14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan14"),
+(call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_20", "trp_nord_scout_multiplayer"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_42", "trp_nord_scout_multiplayer"),
 
@@ -5211,11 +4670,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_tropa4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_tropa4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_tropa4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_tropa4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_tropa4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_tropa4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_brownclk", "trp_tropa4"),
@@ -5257,11 +4711,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_tropa9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_tropa9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_tropa9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_tropa9"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa9"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa9"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_tropa9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_tropa9"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_olive", "trp_tropa9"),
@@ -5301,11 +4750,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_tropa13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_tropa13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_tropa13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_tropa13"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa13"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa13"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_tropa13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_tropa13"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_gry", "trp_tropa13"),
@@ -5345,11 +4789,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_langseaxt2", "trp_tropa14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_angleswordt2", "trp_tropa14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bamburghsword2t2", "trp_tropa14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_greaves1", "trp_tropa14"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa14"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa14"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_greycheap", "trp_tropa14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailnoble_redclk1", "trp_tropa14"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailtunic_wht", "trp_tropa14"),
@@ -5415,10 +4854,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_h", "trp_capitan17"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan17"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan17"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan17"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan17"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan17"),
        #2
@@ -5458,9 +4893,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_7", "trp_capitan19"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan19"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan19"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan19"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan19"),
        #3
@@ -5500,9 +4932,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_capitan27"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan27"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan27"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan27"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan27"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan27"),
        #4
@@ -5542,9 +4971,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_capitan28"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan28"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan28"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan28"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan28"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan28"),
        #5
@@ -5585,9 +5011,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_c_5", "trp_capitan29"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan29"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan29"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan29"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan29"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan29"),
        #6
@@ -5629,9 +5052,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_capitan30"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan30"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan30"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan30"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan30"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan30"),
        #7
@@ -5671,9 +5091,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_g", "trp_capitan31"),
 
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spear_briton2ht3", "trp_capitan31"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_capitan31"),
-	  (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan31"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_capitan31"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_capitan31"),
 #soldados irlandeses             #1
@@ -5702,11 +5119,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_tropa17"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa17"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_1", "trp_tropa17"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa17"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa17"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa17"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa17"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa17"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa17"),
@@ -5742,11 +5154,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_viking_10", "trp_mercenario5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_c_1", "trp_mercenario5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_a", "trp_mercenario5"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_mercenario5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_mercenario5"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_mercenario5"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_linen_coatblue", "trp_mercenario5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_german_tunic2", "trp_mercenario5"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ptunic1", "trp_mercenario5"),
@@ -5779,11 +5186,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_2", "trp_tropa19"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa19"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa19"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa19"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa19"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa19"),
@@ -5821,11 +5223,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_tropa27"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa27"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_3", "trp_tropa27"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa27"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa27"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa27"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa27"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa27"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa27"),
@@ -5863,11 +5260,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa28"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_5", "trp_tropa28"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_6", "trp_tropa28"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa28"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa28"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa28"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa28"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa28"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa28"),
@@ -5905,11 +5297,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_tropa29"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa29"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_6", "trp_tropa29"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa29"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa29"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa29"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa29"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa29"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa29"),
@@ -5948,11 +5335,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_tropa30"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_11", "trp_tropa30"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_3", "trp_tropa30"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa30"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa30"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa30"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa30"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa30"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa30"),
@@ -5989,11 +5371,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_gaelic_j", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_rectangle_28", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_adorno_1", "trp_tropa32"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa32"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa32"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_tropa32"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mail_sleevelessbrn", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_bronze_fadedgrn", "trp_tropa32"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_goatist_tuniccoat", "trp_tropa32"),
@@ -6033,11 +5410,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_8", "trp_tropa20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_a_4", "trp_tropa20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_pict_a_5", "trp_tropa20"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa20"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_tropa20"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_bootstall", "trp_tropa20"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bluepantsbody_woad04", "trp_tropa20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_richlong_tunic3", "trp_tropa20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_redpantsbody_woad11", "trp_tropa20"),
@@ -6059,10 +5431,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_1", "trp_capitan20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_celtic_7", "trp_capitan20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shield_caledonian_12", "trp_capitan20"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_capitan20"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan20"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bluepantsbody_woad02t2", "trp_capitan20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_hide_coat6", "trp_capitan20"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_war_paintbody4", "trp_capitan20"),
@@ -6110,12 +5478,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan6"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan6"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan6"),
@@ -6149,11 +5511,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan7"),
@@ -6186,11 +5543,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan8"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan8"),
@@ -6224,11 +5576,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_linen_coattan", "trp_capitan10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan10"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan10"),
@@ -6261,11 +5608,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan11"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan11"),
@@ -6298,11 +5640,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan12"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan12"),
@@ -6335,11 +5672,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_briton_horseman_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan15"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan15"),
@@ -6372,11 +5704,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan16"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan16"),
@@ -6409,11 +5736,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan18"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan18"),
@@ -6445,11 +5767,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan21"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan21"),
@@ -6482,11 +5799,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan22"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan22"),
@@ -6519,11 +5831,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan23"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan23"),
@@ -6556,11 +5863,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan24"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan24"),
@@ -6593,11 +5895,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_linen_coattan", "trp_capitan25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_brown_armor", "trp_capitan25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan25"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_briton_helm", "trp_capitan25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_captainhelm", "trp_capitan25"),
@@ -6630,11 +5927,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_scale_armor1", "trp_capitan26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrniegreen", "trp_capitan26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_mailbyrnieyelo", "trp_capitan26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_ankleboots", "trp_capitan26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_noble_shoesorange", "trp_capitan26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_splinted_leather_greaves", "trp_capitan26"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_irishcloak", "trp_capitan26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_plaincloakbrown", "trp_capitan26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_rathos_bowlhelmet", "trp_capitan26"),
@@ -6681,13 +5973,7 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_arming_cap", "trp_tropa6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa6"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa6"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa6"),
-###
+      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa6"),###
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa6"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa6"),
@@ -6731,12 +6017,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa7"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa7"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_briton_skirmishert3_multiplayer"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa7"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa7"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa7"),
@@ -6780,12 +6060,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa8"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa8"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa8"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa8"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa8"),
@@ -6829,12 +6103,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa10"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa10"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa10"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa10"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa10"),
@@ -6878,12 +6146,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa11"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa11"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa11"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa11"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa11"),
@@ -6927,12 +6189,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa12"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa12"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa12"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa12"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa12"),
@@ -6976,12 +6232,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa15"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa15"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa15"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa15"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa15"),
@@ -7025,12 +6275,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa16"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa16"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa16"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa16"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa16"),
@@ -7073,12 +6317,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa18"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa18"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa18"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa18"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa18"),
@@ -7122,12 +6360,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa21"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa21"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa21"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa21"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa21"),
@@ -7172,12 +6404,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa22"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa22"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa22"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa22"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa22"),
@@ -7220,12 +6446,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa23"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa23"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa23"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa23"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa23"),
@@ -7268,12 +6488,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa24"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa24"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa24"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa24"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa24"),
@@ -7316,12 +6530,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa25"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa25"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa25"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_spearbanner4", "trp_tropa25"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa25"),
@@ -7364,12 +6572,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_roman_helmlate", "trp_tropa26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_romanelitehelmt3", "trp_tropa26"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1blue", "trp_tropa26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2grey", "trp_tropa26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes1green", "trp_tropa26"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2green", "trp_tropa26"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_tropa26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_wessexbanner9", "trp_tropa26"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_tropa26"),
@@ -7406,10 +6608,6 @@ scripts = [
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leathercap1", "trp_mercenario4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bandanawht", "trp_mercenario4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_bandanablack", "trp_mercenario4"),
-
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_shoes", "trp_mercenario4"),
-      (call_script, "script_multiplayer_set_item_available_for_troop", "itm_shoes2bare", "trp_mercenario4"),
-
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_leather_gloves1", "trp_mercenario4"),
       (call_script, "script_multiplayer_set_item_available_for_troop", "itm_horn_multiplayer", "trp_mercenario4"),
 #chief capitan tropas

@@ -497,6 +497,7 @@ tutorial_fighters_end = "trp_tutorial_archer_1"
 # arena weapons
 ARENA_SHIELD = "itm_shield_gaelic_small_13"
 ARENA_HORSE = "itm_horse_1l_1"
+ARENA_FOOTWEAR = "itm_footwear_0m_1"
 
 # Walker types:
 walkert_default = 0
@@ -809,6 +810,9 @@ weapons_end = shields_begin
 
 armors_begin = "itm_leather_gloves1"
 armors_end = weapons_begin
+
+footwear_begin = "itm_footwear_0c_1"
+footwear_end = "itm_richlong_tunic1"
 
 estandartes_begin = "itm_wessexbanner1"
 estandartes_end = shields_begin
@@ -1242,8 +1246,8 @@ yelmos_pesados_begin = "itm_helm_leathert2"
 yelmos_pesados_end = "itm_helmet_stripedt3"
 yelmos_pesados2_begin = "itm_helmet_stripedt3"
 yelmos_pesados2_end = "itm_noheadhelm"
-calzado_pesados_begin = "itm_greaves1"
-calzado_pesados_end = "itm_cavalry_greaves"
+calzado_pesados_begin = "itm_footwear_2m_1"
+calzado_pesados_end = footwear_end
 burro_begin = "itm_horse_donkey_1"
 burro_end = "itm_pilgrim_disguise"
 coronas_begin = "itm_crown_lombardy"

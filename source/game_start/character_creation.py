@@ -597,7 +597,7 @@ scripts = [
 
             (troop_add_item, "trp_player", "itm_axe_englet2", imod_chipped),
             (troop_add_item, "trp_player", "itm_rawhide_vest_green", 0),
-            (troop_add_item, "trp_player", "itm_shoes1blue", 0),
+            (troop_add_item, "trp_player", "itm_footwear_0m_1", 0),
             (troop_add_item, "trp_player", "itm_huntingbow", 0),
             (troop_add_item, "trp_player", "itm_barbed_arrows", 0),
             (troop_add_item, "trp_player", "itm_horse_pony", imod_heavy),
@@ -618,7 +618,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_one_handed_weapon, 15),
             (troop_add_gold, "trp_player", 100),
 
-            (troop_add_item, "trp_player", "itm_leather_boots1", imod_ragged),
+            (troop_add_item, "trp_player", "itm_footwear_1m_1", imod_ragged),
             (troop_add_item, "trp_player", "itm_merch_tunicwt", 0),
 
             (troop_add_item, "trp_player", "itm_espada_historic1", imod_balanced),
@@ -641,7 +641,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_polearm, 15),
 
             (troop_add_item, "trp_player", "itm_gaelic_jacketgray", 0),
-            (troop_add_item, "trp_player", "itm_leather_boots1", imod_ragged),
+            (troop_add_item, "trp_player", "itm_footwear_1c_1", imod_ragged),
             (troop_add_item, "trp_player", "itm_dena_helmgoat", 0),
             (troop_add_item, "trp_player", "itm_staff1", 0),
             (troop_add_item, "trp_player", "itm_pict_crossbow", 0),
@@ -668,7 +668,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_crossbow, 10),
 
             (troop_add_item, "trp_player", "itm_bluepantsbody_woad04", imod_sturdy),
-            (troop_add_item, "trp_player", "itm_leather_boots1", imod_ragged),
+            (troop_add_item, "trp_player", "itm_footwear_1m_1", imod_ragged),
             (troop_add_item, "trp_player", "itm_espada_historic1", imod_rusty),
             (troop_add_item, "trp_player", "itm_pict_crossbow", 0),
             (troop_add_item, "trp_player", "itm_bolts", 0),
@@ -692,7 +692,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_throwing, 10),
 
             (troop_add_item, "trp_player", "itm_leather_tunic1", imod_ragged),
-            (troop_add_item, "trp_player", "itm_leather_boots1", imod_tattered),
+            (troop_add_item, "trp_player", "itm_footwear_0m_1", imod_tattered),
 
             (troop_add_item, "trp_player", "itm_espada_historic1", imod_rusty),
             (troop_add_item, "trp_player", "itm_pict_crossbow", 0),
@@ -733,7 +733,7 @@ scripts = [
             (troop_raise_proficiency, "trp_player", wpt_crossbow, 20),
 
             (troop_add_item, "trp_player", "itm_ptunic3", imod_sturdy),
-            (troop_add_item, "trp_player", "itm_shoes1blue", 0),
+            (troop_add_item, "trp_player", "itm_footwear_0c_1", 0),
             (troop_add_item, "trp_player", "itm_espada_historic1", imod_rusty),
             (troop_add_item, "trp_player", "itm_pict_crossbow", 0),
             (troop_add_item, "trp_player", "itm_bolts", 0),

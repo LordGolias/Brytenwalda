@@ -6,6 +6,7 @@ from header_triggers import ti_on_missile_hit, ti_on_weapon_attack, ti_on_init_i
 
 import module_items_shields
 import module_items_horses
+import module_items_footwear
 
 # for the tutorial_shield
 imodbits_shield = imodbit_cracked | imodbit_battered | imodbit_thick | imodbit_reinforced
@@ -258,47 +259,11 @@ items += [
 ["mail_gloves","reservCoarse Gloves", [("gauntlets_Lx",0)], itp_type_hand_armor,0, 190, weight(0.25)|abundance(60)|body_armor(12)|difficulty(0),imodbits_cloth,[], ['fac_merc2']],
 ["slot_gloveselite","slotCoarse Gloves", [("gauntlets_L",0)], itp_type_hand_armor,0, 190, weight(0.25)|abundance(60)|body_armor(12)|difficulty(0),imodbits_cloth],
 # handwear ends
+]
 
-# footwear
-["cheap_shoes", "Dirty Ankle Wrapping", [("wrapping_boots_a_bry",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature ,0,100 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(10)|difficulty(0) ,imodbits_cloth ],
-["ankleboots", "Ankle Boots", [("ankle_boots_a_new_bry",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0,250 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(13)|difficulty(0) ,imodbits_cloth ],
-["leather_shoes", "Leather shoes", [("bare_legs_blue",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature ,0,120 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(10)|difficulty(0) ,imodbits_cloth ],
-["shoes2bare", "Bare Carbatinae", [("carbatinae_2_bare",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature ,0,120 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(10)|difficulty(0) ,imodbits_cloth ],
-["slotshoes1bare", "slotBare Carbatinae", [("carbatinae_1_bare",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature ,0,120 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(10)|difficulty(0) ,imodbits_cloth ],
-# medium
-["decorated_leather_shoes_bare", "Bare Decorated leather shoes", [("bare_legs_blue",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature ,0,150 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(11)|difficulty(0) ,imodbits_cloth ],
-["shoes1", "Quality Carbatinae", [("carbatinae_1",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0,280 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["shoes2green", "Quality Carbatinae", [("carbatinae_2_green",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0,280 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["shoes1blue", "Quality Carbatinae", [("carbatinae_1_blue",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0,280 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["shoes2grey", "Quality Carbatinae", [("carbatinae_2_grey",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0,280 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["shoes1green", "Rich Carbatinae", [("carbatinae_1_green",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 280 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["shoes1orange", "Rich Carbatinae", [("carbatinae_1_orange",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0,280 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["shoes1red", "Rich Carbatinae", [("carbatinae_1_red",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0,480 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
+items += module_items_footwear.items
 
-# military grade
-["greaves1", "Greaves", [("carbatinae_1_greaves",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 860 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(23)|difficulty(0) ,imodbits_armor ],
-["light_leather_boots", "Leather Boots", [("decorated_leather_shoes_greaves",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(23)|difficulty(0) ,imodbits_armor ],
-["greaves_green", "Green Greaves", [("carbatinae_1_greaves_green",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(23)|difficulty(0) ,imodbits_armor ],
-["greaves_blue", "Blue Greaves", [("carbatinae_1_greaves_blue",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(25)|difficulty(0) ,imodbits_armor ],
-["dshoes2greaves_blue", "dGreaves", [("carbatinae_2_greaves_blue",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(25)|difficulty(0) ,imodbits_armor ],
-["leather_bootst2", "Thick Leather Boots", [("carbatinae_2_greaves_grey",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(26)|difficulty(0) ,imodbits_armor ],
-["leather_bootstall", "Tall Leather Boots", [("carbatinae_2_greaves_orange",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(27)|difficulty(0) ,imodbits_armor ],
-["greaves_red", "Decorated_Greaves", [("carbatinae_2_greaves_red",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(25)|difficulty(0) ,imodbits_armor ],
-["splinted_boots", "Splinted Boots", [("carbatinae_1_greaves_red",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 890 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(25)|difficulty(0) ,imodbits_armor ],
-["leather_boots1", "Leather Boots", [("decorated_leather_shoes_greaves_red",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 920 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(26)|difficulty(0) ,imodbits_armor ],
-["splinted_leather_greaves", "Splinted Leather Greaves", [("splinted_greaves_a_bry",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 910 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(26)|difficulty(0) ,imodbits_armor ],
-
-["noble_greavest3", "Thick Nobleman Greaves", [("rus_splint_greaves",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 980 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(27)|difficulty(0) ,imodbits_armor ],
-["noble_greavesgreen", "Nobleman Leather Shoes", [("decorated_leather_shoes_greaves_green",0)], itp_merchandise|itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 920 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(25)|difficulty(0) ,imodbits_armor ],
-["noble_greavesblue", "Leather Shoes", [("decorated_leather_shoes_greaves_blue",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 920 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(25)|difficulty(0) ,imodbits_armor ],
-
-["cavalry_greaves", "Cavalry_Greaves", [("spl_greaves",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0, 920 , weight(2)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(26)|difficulty(0) ,imodbits_armor ],
-
-# civilian high class
-["noble_shoeswhite", "dLeather Shoes", [("decorated_leather_shoes",0)], itp_merchandise| itp_type_foot_armor |itp_civilian | itp_attach_armature,0,600 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["noble_shoesblue", "Leather Shoes", [("decorated_leather_shoes_blue",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0,600 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["noble_shoesorange", "Rich Leather Shoes", [("decorated_leather_shoes_orange",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0,600 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
-["decorated_leather_shoes_red", "Rich Leather Shoes", [("decorated_leather_shoes_red",0)], itp_type_foot_armor |itp_civilian | itp_attach_armature,0,600 , weight(1)|abundance(60)|head_armor(0)|body_armor(0)|leg_armor(16)|difficulty(0) ,imodbits_cloth ],
+items += [
 
 # pick
 ["richlong_tunic1", "Long Tunic", [("outaa1",0)], itp_merchandise |itp_type_body_armor |itp_covers_legs|itp_civilian,0, 560 , weight(1)|abundance(60)|head_armor(0)|body_armor(15)|leg_armor(4), imodbits_cloth ,[], pict_factions + irish_factions],

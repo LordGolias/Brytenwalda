@@ -971,8 +971,8 @@ mission_templates = [
   (
     "village_training", mtf_arena_fight, -1,
     "village_training",
-    [(2,mtef_visitor_source|mtef_team_0,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", "itm_cheap_shoes"]),
-     (4,mtef_visitor_source|mtef_team_1,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", "itm_cheap_shoes"]),
+    [(2,mtef_visitor_source|mtef_team_0,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", ARENA_FOOTWEAR]),
+     (4,mtef_visitor_source|mtef_team_1,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", ARENA_FOOTWEAR]),
      ],
     [
       (ti_before_mission_start, 0, 0, [],
@@ -2660,7 +2660,7 @@ mission_templates = [
             (troop_add_item, "trp_player","itm_mailtunic_ltbrown",0),
             (troop_add_item, "trp_player","itm_espada_banditking", 0),
 		    (troop_add_item, "trp_player","itm_spangenhelma_gold",0),
-            (troop_add_item, "trp_player","itm_noble_shoesorange",0),
+            (troop_add_item, "trp_player","itm_footwear_2m_1",0),
             (troop_add_item, "trp_player","itm_elite2_2haxeresrv",0),
 
 
@@ -5961,10 +5961,10 @@ common_battle_tab_press,
     "training_ground_trainer_training",mtf_arena_fight,-1,
     "You will fight a match in the arena.",
     [
-      (16, mtef_visitor_source|mtef_team_0,af_override_everything,aif_start_alarmed,1,[ARENA_SHIELD, "itm_practice_sword", "itm_cheap_shoes"]),
-      (17, mtef_visitor_source|mtef_team_1,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", "itm_cheap_shoes"]),
-      (18, mtef_visitor_source|mtef_team_2,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", "itm_cheap_shoes"]),
-      (19, mtef_visitor_source|mtef_team_3,af_override_everything,aif_start_alarmed,1,["itm_practice_sword", "itm_cheap_shoes"]),
+      (16, mtef_visitor_source|mtef_team_0,af_override_everything,aif_start_alarmed,1,[ARENA_SHIELD, "itm_practice_sword", ARENA_FOOTWEAR]),
+      (17, mtef_visitor_source|mtef_team_1,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", ARENA_FOOTWEAR]),
+      (18, mtef_visitor_source|mtef_team_2,af_override_everything,aif_start_alarmed,1,["itm_practice_staff", ARENA_FOOTWEAR]),
+      (19, mtef_visitor_source|mtef_team_3,af_override_everything,aif_start_alarmed,1,["itm_practice_sword", ARENA_FOOTWEAR]),
       (20, mtef_visitor_source,0,0,1,[]),
     ],
     [
@@ -6998,11 +6998,11 @@ torneo_aumenta_dano, #dunde torneo chief
 (56, mtef_visitor_source|mtef_team_0, af_override_weapons|af_override_horse, aif_start_alarmed, 1, ["itm_spear_blade2t2", "itm_staff1", "itm_spear_hasta"]),     
 (58, mtef_visitor_source|mtef_team_2,af_override_weapons|af_override_horse, aif_start_alarmed, 1, ["itm_spear_blade2t2", "itm_staff1", "itm_spear_hasta"]),
 #vistiors 12 and 13 are ranged standard - note that armor is also changed to light leather stuff
-(0, mtef_visitor_source|mtef_team_0, af_override_all_but_horse|af_override_foot, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_shoes2bare", "itm_leather_gloves1"]),     
-(8, mtef_visitor_source|mtef_team_2, af_override_all_but_horse|af_override_foot, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_shoes2bare", "itm_leather_gloves1"]),
+(0, mtef_visitor_source|mtef_team_0, af_override_all_but_horse|af_override_foot, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_leather_gloves1", "itm_footwear_0m_1"]),
+(8, mtef_visitor_source|mtef_team_2, af_override_all_but_horse|af_override_foot, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_leather_gloves1", "itm_footwear_0m_1"]),
 #visitors 14 and 15 are ranged no horse - note that armor is also changed to light leather stuff
-(0, mtef_visitor_source|mtef_team_0, af_override_everything, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_shoes2bare", "itm_leather_gloves1"]),     
-(8, mtef_visitor_source|mtef_team_2, af_override_everything, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_shoes2bare", "itm_leather_gloves1"]),
+(0, mtef_visitor_source|mtef_team_0, af_override_everything, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_leather_gloves1", "itm_footwear_0m_1"]),
+(8, mtef_visitor_source|mtef_team_2, af_override_everything, aif_start_alarmed, 1, ["itm_shortbow", "itm_arrows1", "itm_linen_coatwcloak", "itm_skullcap_reinforcedt2", "itm_leather_gloves1", "itm_footwear_0m_1"]),
 
 
 ],   
@@ -7425,10 +7425,10 @@ torneo_aumenta_dano, #dunde torneo chief
     "wedding",0,-1,
     "Wedding",
     [
-        (0,mtef_visitor_source,af_override_everything,0,1,["itm_bluepantsbody_woad04", "itm_ankleboots"]),
+        (0,mtef_visitor_source,af_override_everything,0,1,["itm_bluepantsbody_woad04", "itm_footwear_1c_1"]),
         (1,mtef_visitor_source,af_override_everything,0,1,["itm_bride_dress", "itm_bride_crown", "itm_bride_shoes"]),
         (2,mtef_visitor_source,af_castle_lord,0,1,[]),
-        (3,mtef_visitor_source,af_override_everything,0,1,["itm_courtly_outfit", "itm_leather_shoes"]),
+        (3,mtef_visitor_source,af_override_everything,0,1,["itm_courtly_outfit", "itm_footwear_1c_2"]),
         (4,mtef_visitor_source,af_castle_lord,0,1,[]),
         (5,mtef_visitor_source,af_castle_lord,0,1,[]),
         (6,mtef_visitor_source,af_castle_lord,0,1,[]),
@@ -9332,7 +9332,7 @@ torneo_aumenta_dano, #dunde torneo chief
     "tutorial_1",0,-1,
     "You enter the training ground.",
     [
-        (0,mtef_leader_only,af_override_everything,0,1,["itm_tutorial_shield", "itm_tutorial_sword", "itm_tutorial_short_bow", "itm_tutorial_arrows", "itm_leather_tunic1", "itm_leather_boots1"]), #af_override_weapons
+        (0,mtef_leader_only,af_override_everything,0,1,["itm_tutorial_shield", "itm_tutorial_sword", "itm_tutorial_short_bow", "itm_tutorial_arrows", "itm_leather_tunic1", ARENA_FOOTWEAR]), #af_override_weapons
      ],
     [
       (ti_tab_pressed, 0, 0, [],
@@ -9540,7 +9540,7 @@ torneo_aumenta_dano, #dunde torneo chief
     "tutorial_2",mtf_arena_fight,-1,
     "You enter the training ground.",
     [
-        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_tutorial_shield", "itm_leather_tunic1", "itm_leather_boots1"]),
+        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_tutorial_shield", "itm_leather_tunic1", ARENA_FOOTWEAR]),
         (2,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,1,[]),
         (4,mtef_visitor_source|mtef_team_1,0,0,1,[]),
      ],
@@ -9825,7 +9825,7 @@ torneo_aumenta_dano, #dunde torneo chief
     "tutorial_3",mtf_arena_fight,-1,
     "You enter the training ground.",
     [
-        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_leather_tunic1", "itm_leather_boots1"]),
+        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_leather_tunic1", ARENA_FOOTWEAR]),
         (3,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,1,[]),
         (5,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,1,[]),
      ],
@@ -10082,7 +10082,7 @@ torneo_aumenta_dano, #dunde torneo chief
     "tutorial_3_2",mtf_arena_fight,-1,
     "You enter the training ground.",
     [
-        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_tutorial_staff", "itm_leather_tunic1", "itm_leather_boots1"]), 
+        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_tutorial_staff", "itm_leather_tunic1", ARENA_FOOTWEAR]),
         (4,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,1,[]),
         (6,mtef_visitor_source|mtef_team_1,0,aif_start_alarmed,1,[]),
      ],
@@ -10236,7 +10236,7 @@ torneo_aumenta_dano, #dunde torneo chief
     "tutorial_4",mtf_arena_fight,-1,
     "You enter the training ground.",
     [
-        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_tutorial_sword", "itm_tutorial_short_bow", "itm_tutorial_arrows", "itm_leather_tunic1", "itm_leather_boots1"]), #af_override_weapons
+        (0,mtef_leader_only|mtef_team_0,af_override_everything,0,1,["itm_tutorial_sword", "itm_tutorial_short_bow", "itm_tutorial_arrows", "itm_leather_tunic1", ARENA_FOOTWEAR]), #af_override_weapons
      ],
     [
       (ti_tab_pressed, 0, 0, [],
@@ -10451,7 +10451,7 @@ torneo_aumenta_dano, #dunde torneo chief
     "tutorial_5",mtf_arena_fight,-1,
     "You enter the training ground.",
     [
-        (0,mtef_visitor_source|mtef_team_0,af_override_everything,0,1,["itm_tutorial_sword", "itm_tutorial_shield", "itm_tutorial_short_bow", "itm_tutorial_arrows", "itm_tutorial_saddle_horse", "itm_leather_tunic1", "itm_shoes1"]), #cambiado chief
+        (0,mtef_visitor_source|mtef_team_0,af_override_everything,0,1,["itm_tutorial_sword", "itm_tutorial_shield", "itm_tutorial_short_bow", "itm_tutorial_arrows", "itm_tutorial_saddle_horse", "itm_leather_tunic1", ARENA_FOOTWEAR]), #cambiado chief
         (1,mtef_visitor_source|mtef_team_0,0,aif_start_alarmed,1,[]),
         (2,mtef_visitor_source|mtef_team_0,0,aif_start_alarmed,1,[]),
         (3,mtef_visitor_source|mtef_team_0,0,aif_start_alarmed,1,[]),

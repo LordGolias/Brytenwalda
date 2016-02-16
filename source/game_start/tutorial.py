@@ -48,7 +48,7 @@ menu = (
 
             (troop_clear_inventory, "$g_player_troop"),
             (troop_add_item, "$g_player_troop", "itm_leather_tunic1", 0),
-            (troop_add_item, "$g_player_troop", "itm_leather_boots1", 0),
+            (troop_add_item, "$g_player_troop", ARENA_FOOTWEAR, 0),
             (troop_add_item, "$g_player_troop", "itm_practice_sword", 0),
             (troop_add_item, "$g_player_troop", "itm_quarter_staff", 0),
             (troop_equip_items, "$g_player_troop"),

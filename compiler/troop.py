@@ -61,7 +61,7 @@ class Troop(GenericEntity):
 
         if len(inventory) > _MAX_ITEMS:
             raise IndexError('Inventory size of troop cannot exceed 64 items. '
-                             '%d item/s too many' % (len(self._inventory) - _MAX_ITEMS))
+                             '%d item/s too many in "%s"' % (len(inventory) - _MAX_ITEMS, self.no_tag_id))
         self._inventory = inventory
         self._attributes = attributes
         self._proficiencies = proficiencies
