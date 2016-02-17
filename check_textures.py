@@ -8,7 +8,7 @@ import cPickle as pickle
 
 # , "./Brytenwalda/Resource/CrossmatchmissingfromRP/"
 #res_paths = ["./Native/CommonRes/", "./Brytenwalda/Resource/"]
-res_paths = ["./Native/CommonRes/", "./Brytenwalda/Resource/"]
+res_paths = ["./Modules/Native/CommonRes/", "./Modules/Brytenwalda/Resource/"]
 #tex_paths = ["./Native/Textures/", "./Brytenwalda/Textures/"]
 
 
@@ -111,21 +111,39 @@ def unused_horse_meshes(resources=None):
     return sorted(unused_horse_meshes)
 
 
+def unused_footwear_meshes(resources=None):
+    if resources is None:
+        resources, _ = get_db()
+    used_resources = get_used_items_meshes()
+
+    unused_footwear_meshes = []
+    for unused_mesh in sorted(resources - used_resources):
+        for x in ['shoe', 'greave', 'boot']:
+            if x in unused_mesh.lower():
+                unused_footwear_meshes.append(unused_mesh)
+    return sorted(unused_footwear_meshes)
+
+
 if __name__ == '__main__':
 
-    resources, _ = get_db()
+    resources, file_of_resource = get_db()
     used_resources = get_used_items_meshes()
 
     print('missing meshes: %d' % len(used_resources - resources))
     for x in sorted(used_resources - resources):
         print(x)
 
-    unused_shield_meshes = unused_shield_meshes()
-    print('unused shields: %d' % len(unused_shield_meshes))
-    for x in unused_shield_meshes:
-        print(x)
+    # unused_shield_meshes = unused_shield_meshes()
+    # print('unused shields: %d' % len(unused_shield_meshes))
+    # for x in unused_shield_meshes:
+    #     print("%s: %s", (x, file_of_resource[x]))
 
     # unused_horse_meshes = unused_horse_meshes()
     # print('unused horses: %d' % len(unused_horse_meshes))
     # for x in unused_horse_meshes:
-    #     print(x)
+    #     print("%s: %s", (x, file_of_resource[x]))
+
+    unused_footwear_meshes = unused_footwear_meshes()
+    print('unused footwear: %d' % len(unused_footwear_meshes))
+    for x in unused_footwear_meshes:
+        print("%s:\n\t%s" % (x, "\n\t".join(file_of_resource[x])))
