@@ -814,6 +814,9 @@ armors_end = weapons_begin
 footwear_begin = "itm_footwear_0c_1"
 footwear_end = "itm_richlong_tunic1"
 
+headwear_begin = "itm_headwear_crown_lombardy"
+headwear_end = "itm_club_stick"
+
 estandartes_begin = "itm_wessexbanner1"
 estandartes_end = shields_begin
 
