@@ -1,20 +1,18 @@
-from header_operations import *
-from header_common import *
+from .header_operations import *
+from .header_common import *
 
-from header_presentations import *
-from header_triggers import *
-from header_troops import *
-from header_skills import *
-from header_items import *
-from header_terrain_types import dplmc_terrain_code_siege
+from .header_presentations import *
+from .header_triggers import *
+from .header_troops import *
+from .header_skills import *
+from .header_items import *
+from .header_terrain_types import dplmc_terrain_code_siege
 
-from module_constants import *
+from .module_constants import *
 
-from xgm_mod_options_header import *
+from .xgm_mod_options_header import *
 
-from . import loans, enterprise, battle, multiplayer
-import constable
-import minister
+from . import loans, enterprise, battle, multiplayer, constable, minister
 
 ####################################################################################################################
 #  Each presentation record contains the following fields:

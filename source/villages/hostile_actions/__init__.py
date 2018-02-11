@@ -4,11 +4,7 @@ from source.header_items import num_equipment_kinds, max_inventory_items
 
 from source.module_constants import svs_looted, svs_being_raided
 
-import force_recruit
-import loot
-import make_prisoners
-import steal_cattle
-import take_food
+from . import force_recruit, loot, make_prisoners, steal_cattle, take_food
 
 
 menus = [

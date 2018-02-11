@@ -3,15 +3,8 @@ from source.statement import StatementBlock
 from ..header_operations import *
 from ..module_constants import *
 
-import quit
-import separate
-import questions
-import sisterly_advice
-import local_histories
-import personality_clashes
-import rejoin
-import object_king_support
-import objectionable_action
+from . import quit, separate, questions, sisterly_advice, local_histories, personality_clashes, rejoin, \
+    object_king_support, objectionable_action
 
 
 dialogs = quit.dialogs \

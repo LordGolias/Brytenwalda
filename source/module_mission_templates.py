@@ -1,10 +1,9 @@
 from source.mission_template_triggers import *
-from header_music import *
-from header_mission_types import charge
+from .header_music import *
+from .header_mission_types import charge
 
-import game_start
-from game_start import quest_merchant
-import multiplayer
+from . import game_start, multiplayer
+from .game_start import quest_merchant
 ####################################################################################################################
 #   Each mission-template is a tuple that contains the following fields:
 #  1) Mission-template id (string): used for referencing mission-templates in other files.

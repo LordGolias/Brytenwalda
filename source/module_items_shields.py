@@ -1,11 +1,11 @@
-from header_operations import store_trigger_param, call_script
+from .header_operations import store_trigger_param, call_script
 
-from header_items import itp_type_shield, itp_wooden_parry, itp_merchandise, \
+from .header_items import itp_type_shield, itp_wooden_parry, itp_merchandise, \
     itcf_carry_round_shield, itcf_carry_kite_shield, \
     weight, hit_points, body_armor, spd_rtng, shield_width, difficulty, abundance, \
     pict_factions, irish_factions, saxon_factions, jute_factions, engle_factions, briton_factions
-from header_item_modifiers import imodbit_cracked, imodbit_battered, imodbit_thick, imodbit_reinforced
-from header_triggers import ti_on_init_item
+from .header_item_modifiers import imodbit_cracked, imodbit_battered, imodbit_thick, imodbit_reinforced
+from .header_triggers import ti_on_init_item
 
 imodbits_shield = imodbit_cracked | imodbit_battered | imodbit_thick | imodbit_reinforced
 imodbits_shield_high = imodbit_cracked | imodbit_battered | imodbit_thick | imodbit_reinforced

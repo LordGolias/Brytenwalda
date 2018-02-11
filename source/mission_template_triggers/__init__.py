@@ -27,7 +27,7 @@ from .fall_backwards import common_andar_cae
 from .decapitate import theoris_decapitation
 from .volley_order import order_volley_triggers
 from .health_regeneration import WP_HR_on_death
-import volley_order
+from . import volley_order
 
 scripts = volley_order.scripts
 

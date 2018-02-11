@@ -1,13 +1,10 @@
-from header_operations import *
-from header_common import *
-from header_items import *
-from header_item_modifiers import *
-from header_triggers import ti_on_missile_hit, ti_on_weapon_attack, ti_on_init_item
+from .header_operations import *
+from .header_common import *
+from .header_items import *
+from .header_item_modifiers import *
+from .header_triggers import ti_on_missile_hit, ti_on_weapon_attack, ti_on_init_item
 
-import module_items_shields
-import module_items_horses
-import module_items_footwear
-import module_items_headwear
+from . import module_items_shields, module_items_horses, module_items_footwear, module_items_headwear
 
 # for the tutorial_shield
 imodbits_shield = imodbit_cracked | imodbit_battered | imodbit_thick | imodbit_reinforced

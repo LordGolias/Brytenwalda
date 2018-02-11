@@ -1,4 +1,4 @@
-from header_sounds import *
+from .header_sounds import *
 
 sounds = [
 #chief cambiado entero

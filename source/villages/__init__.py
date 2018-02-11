@@ -8,10 +8,7 @@ from source.statement import StatementBlock
 
 from source.module_constants import *
 
-import hostile_actions
-import buy_cattle
-import recruit
-import bandits_infestation
+from . import hostile_actions, buy_cattle, recruit, bandits_infestation
 
 
 def _create_bounty_visitor(bounty_name, bounty_target):

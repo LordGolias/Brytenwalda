@@ -1,34 +1,23 @@
-from header_operations import *
-from header_common import *
-from header_parties import *
-from header_skills import *
-from header_troops import *
-from header_mission_templates import *
-from header_items import *
-from header_item_modifiers import *
-from header_triggers import *
-from header_terrain_types import *
-from header_music import *
-from header_map_icons import *
-from header_presentations import *
+from .header_operations import *
+from .header_common import *
+from .header_parties import *
+from .header_skills import *
+from .header_troops import *
+from .header_mission_templates import *
+from .header_items import *
+from .header_item_modifiers import *
+from .header_triggers import *
+from .header_terrain_types import *
+from .header_music import *
+from .header_map_icons import *
+from .header_presentations import *
 
-from module_constants import *
-from module_items import items
-from module_items_shields import HEAVY_SHIELD_WIDTH
+from .module_constants import *
+from .module_items import items
+from .module_items_shields import HEAVY_SHIELD_WIDTH
 
-from . import economy, enterprise, tournaments, game_start, companions, caravans
-import notes
-import villages
-import diplomacy
-import mission_template_triggers
-import village_elder.quest_deliver_cattle, \
-    village_elder.quest_train_peasants, \
-    village_elder.quest_deliver_grain
-import battle
-import patrols
-import constable
-import multiplayer
-import minister
+from . import economy, enterprise, tournaments, game_start, companions, caravans, notes, villages, \
+    diplomacy, mission_template_triggers, battle, patrols, constable, multiplayer, minister, village_elder
 
 
 def get_hrd_weight(y):
@@ -37,7 +26,7 @@ def get_hrd_weight(y):
 
 def set_item_difficulty():
   item_difficulty = []
-  for i_item in xrange(len(items)):
+  for i_item in range(len(items)):
     item_difficulty.append((item_set_slot, i_item, "slot_item_difficulty", get_difficulty(items[i_item][6])))
   return item_difficulty[:]
   # #item_score.append((item_set_slot, i_item, "slot_item_needs_two_hands", items[i_item][3] & itp_two_handed))only needed if use equipbestweapon
@@ -100,7 +89,7 @@ def initialize_items_slots():
             #  item_score.append((item_set_slot, i_item, "slot_item_alternate", i_noswing))
             #  item_score.append((item_set_slot, i_noswing, "slot_item_alternate", i_item))
             ## item_modifier
-    for i_modifier in xrange(len(modifiers)):
+    for i_modifier in range(len(modifiers)):
         item_score.append((item_set_slot, i_modifier, "slot_item_modifier_multiplier", modifiers[i_modifier][1]))
     return item_score
 
@@ -6887,7 +6876,7 @@ scripts = [
     (try_end),
   ]), 
   # script_npc_get_troop_wage
-  # This script is called from module system to calculate troop wages for npc parties.
+  # This script is called from .module system to calculate troop wages for npc parties.
   # Input:
   # param1: troop_id
   # Output: reg0: weekly wage
@@ -47463,7 +47452,7 @@ Born at {s43}^Contact in {s44} of the {s45}.^\
    
   #script_dplmc_party_calculate_strength_in_terrain
   # INPUT: arg1 = party_id
-  #        arg2 = terrain (from header_terrain_types.py)
+  #        arg2 = terrain (from .header_terrain_types.py)
   #        arg3 = exclude leader (0 for do-not-exclude, 1 for exclude)
   #        arg4 = cache policy (1 is use terrain, 2 is use non-terrain, 0 is do not use)
   # OUTPUT: reg0 = strength with terrain
@@ -47471,7 +47460,7 @@ Born at {s43}^Contact in {s44} of the {s45}.^\
   ("dplmc_party_calculate_strength_in_terrain",
     [
       (store_script_param, ":party", 1), #Party_id
-      (store_script_param, ":terrain_type", 2),#a value from header_terrain_types.py
+      (store_script_param, ":terrain_type", 2),#a value from .header_terrain_types.py
       (store_script_param, ":exclude_leader", 3),#(0 for do-not-exclude, 1 for exclude)
       (store_script_param, ":cache_policy", 4),#1 is use terrain, 2 is use non-terrain, 0 is do not use)
 

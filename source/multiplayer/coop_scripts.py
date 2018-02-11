@@ -1756,7 +1756,7 @@ coop_scripts = [
       (val_mul, ":belfry_first_entry_point_id", 10),
       (entry_point_get_position, pos1, ":belfry_first_entry_point_id"),
 
-      #this code block is taken from module_mission_templates.py (multiplayer_server_check_belfry_movement)
+      #this code block is taken from .module_mission_templates.py (multiplayer_server_check_belfry_movement)
       #up down rotation of belfry's next entry point
       (init_position, pos9),
       (position_set_y, pos9, -500), #go 5.0 meters back

@@ -26,7 +26,7 @@ slots = [
     ["item_primary_raw_material", 1],
     ["item_is_raw_material_only_for", 1],
     ["item_input_number", 1],  # ie, how many items of inputs consumed per run
-    ["item_base_price", 1],  # taken from module_items
+    ["item_base_price", 1],  # taken from .module_items
     ["item_output_per_run", 1],  # number of items produced per run
     ["item_overhead_per_run", 1],  # labor and overhead per run
     ["item_secondary_raw_material", 1],  # in this case, the amount used is only one

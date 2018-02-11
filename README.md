@@ -3,6 +3,8 @@
 This repository contains the necessary code to compile the Brytenwalda mod for Mount and Blade.
 Thanks for checking it out!
 
+You can compile it using Python 3, and it has no other dependencies.
+
 ## Compile and installing the mod
 
 To compile the mod, run::

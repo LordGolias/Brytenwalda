@@ -1,8 +1,8 @@
-from header_parties import *
+from .header_parties import *
 
-from lazy_flag import LazyFlag
+from .lazy_flag import LazyFlag
 
-import constable
+from . import constable
 
 pmf_is_prisoner = 0x0001
 

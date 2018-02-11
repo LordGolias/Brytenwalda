@@ -5,7 +5,7 @@
 #
 ####################################################################################################################
 ##diplomacy start+FLORISgdw070715
-#cfrom module_constants import DPLMC_DIPLOMACY_VERSION_STRING
+#cfrom .module_constants import DPLMC_DIPLOMACY_VERSION_STRING
 ##diplomacy end+
 
 info_pages = [

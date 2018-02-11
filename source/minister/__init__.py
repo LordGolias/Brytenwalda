@@ -8,13 +8,7 @@ from source.statement import StatementBlock
 from source.module_constants import *
 from source.module_troops import troops
 
-import indict_vassal
-import emissary
-import change_marshal
-import grant_fief
-import persuade
-import center_captured_lord_advice
-import replace
+from . import indict_vassal, emissary, change_marshal, grant_fief, persuade, center_captured_lord_advice, replace
 
 
 consequences_staff_salary = StatementBlock(

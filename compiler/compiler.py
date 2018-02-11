@@ -6,7 +6,7 @@ import source.header_common as h_common
 import source.process_common as p_common
 import source.header_operations as h_operations
 
-import objects
+import compiler.objects as objects
 from source.statement import StatementBlock
 
 
@@ -72,7 +72,7 @@ class Compiler(object):
                 auto_id = base_auto_id + str(number)
             self._quick_strings[auto_id] = sentence
 
-        return self._quick_strings.keys().index(auto_id)
+        return list(self._quick_strings.keys()).index(auto_id)
 
     def index(self, id, tag=None):
         if not isinstance(id, str):
@@ -139,14 +139,14 @@ class Compiler(object):
             logging.error('Local variable "%s" in "%s" used but not assigned' %
                           (param, self._current_statement_name))
             self._local_variables[param] = 1
-        return self._local_variables.keys().index(param)
+        return list(self._local_variables.keys()).index(param)
 
     def _get_global(self, param):
         if param in self._global_variables:
             self._global_variables[param] += 1
         else:
             self._global_variables[param] = 1
-        return self._global_variables.keys().index(param)
+        return list(self._global_variables.keys()).index(param)
 
     def _process_param(self, param):
 
@@ -343,7 +343,7 @@ class Compiler(object):
             result += '%s %d\n' % (variable, self._global_variables[variable])
 
         with open(self._log_dir + '/' + 'g_variables_usage.txt', 'wb') as f:
-            f.write(result.replace('\n', '\r\n'))
+            f.write(result.replace('\n', '\r\n').encode('utf-8'))
 
         # print unused entities
         unused_entities = self._all_entities - set(self._all_used_entities.keys())
@@ -353,14 +353,14 @@ class Compiler(object):
             result += '%s\n' % variable
 
         with open(self._log_dir + '/' + 'unused_entities.txt', 'wb') as f:
-            f.write(result.replace('\n', '\r\n'))
+            f.write(result.replace('\n', '\r\n').encode('utf-8'))
 
         result = ''
         for slot in objects.Slot.objects.values():
             result += '%s %d\n' % (slot.no_tag_id, slot.index)
 
         with open(self._log_dir + '/' + 'slots.txt', 'wb') as f:
-            f.write(result.replace('\n', '\r\n'))
+            f.write(result.replace('\n', '\r\n').encode('utf-8'))
 
     def compile(self, types=()):
         if not types:
@@ -397,12 +397,10 @@ class Compiler(object):
                     result += object_type.objects[id].export(self)
                 except Exception as e:
                     import sys
-                    raise type(e), type(e)('"%s" happens at "%s".' %
-                                           (e.message, object_type.objects[id].name)), \
-                        sys.exc_info()[2]
+                    raise e
 
             with open(self._export_dir + '/' + objects.FILE_NAMES[object_type], 'wb') as f:
-                f.write(result.replace('\n', '\r\n'))
+                f.write(result.replace('\n', '\r\n').encode('utf-8'))
 
         # save quick strings
         result = "%d\n" % len(self._quick_strings)
@@ -412,7 +410,7 @@ class Compiler(object):
                        p_common.replace_spaces(self._quick_strings[q_string]))
 
         with open(self._export_dir + '/quick_strings.txt', 'wb') as f:
-            f.write(result.replace('\n', '\r\n'))
+            f.write(result.replace('\n', '\r\n').encode('utf-8'))
 
         # export dialog states
         result = ''
@@ -420,6 +418,6 @@ class Compiler(object):
             result += "%s\n" % dialog_state
 
         with open(self._export_dir + '/' + 'dialog_states.txt', 'wb') as f:
-            f.write(result.replace('\n', '\r\n'))
+            f.write(result.replace('\n', '\r\n').encode('utf-8'))
 
         self.save_logs()

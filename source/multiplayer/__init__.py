@@ -1,12 +1,5 @@
-import initialization
-import scripts
-import mission_templates
-import presentations
-import troops
-import coop_mission_templates
-import coop_presentations
-import coop_scripts
-import scenes
+from . import initialization, scripts, mission_templates, presentations, troops, \
+    coop_mission_templates, coop_presentations, coop_scripts, scenes
 
 scripts = initialization.scripts + scripts.scripts + coop_scripts.coop_scripts
 mission_templates = mission_templates.mission_templates + coop_mission_templates.coop_mission_templates

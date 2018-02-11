@@ -5,7 +5,7 @@
 ###################################################
 
 
-from header_common import bignum
+from .header_common import bignum
 
 #pf_min_strength(x)
 

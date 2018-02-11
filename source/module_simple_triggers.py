@@ -1,19 +1,18 @@
-from header_operations import *
-from header_common import *
+from .header_operations import *
+from .header_common import *
 
-from header_triggers import *
-from header_parties import *
-from header_music import mtf_sit_travel
-from header_items import ek_item_0
-from header_item_modifiers import imod_rotten, imod_fresh
-from header_skills import skl_trainer, skl_foraging
-from header_troops import ca_intelligence, ca_charisma
-from header_terrain_types import rt_water, rt_river, rt_bridge, dplmc_terrain_code_siege
+from .header_triggers import *
+from .header_parties import *
+from .header_music import mtf_sit_travel
+from .header_items import ek_item_0
+from .header_item_modifiers import imod_rotten, imod_fresh
+from .header_skills import skl_trainer, skl_foraging
+from .header_troops import ca_intelligence, ca_charisma
+from .header_terrain_types import rt_water, rt_river, rt_bridge, dplmc_terrain_code_siege
 
-from module_constants import *
+from .module_constants import *
 
-from . import economy, loans, companions, caravans, villages, patrols
-import constable
+from . import economy, loans, companions, caravans, villages, patrols, constable
 ####################################################################################################################
 # Simple triggers are the alternative to old style triggers. They do not preserve state, and thus simpler to maintain.
 #

@@ -1,4 +1,4 @@
-from header_scenes import *
+from .header_scenes import *
 
 from . import enterprise, multiplayer
 

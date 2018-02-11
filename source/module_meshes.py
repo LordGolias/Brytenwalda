@@ -1,4 +1,4 @@
-from header_meshes import *
+from .header_meshes import *
 
 ####################################################################################################################
 #  Each mesh record contains the following fields:

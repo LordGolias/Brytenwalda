@@ -1,5 +1,5 @@
-from header_items import *
-from header_item_modifiers import *
+from .header_items import *
+from .header_item_modifiers import *
 
 imodbits_cloth = imodbit_tattered | imodbit_ragged | imodbit_sturdy | imodbit_thick | imodbit_hardened
 

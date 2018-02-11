@@ -8,7 +8,7 @@ from source.module_constants import *
 from source.module_items_shields import HEAVY_SHIELD_WIDTH
 
 
-from shield_bash import mp_shield_bash_1, mp_shield_bash_2
+from .shield_bash import mp_shield_bash_1, mp_shield_bash_2
 
 
 #respiracion chief para multi Anade respiracion mas bleed - bloodloss

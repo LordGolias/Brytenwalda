@@ -1,5 +1,5 @@
-from header_items import *
-from header_item_modifiers import *
+from .header_items import *
+from .header_item_modifiers import *
 
 imodbits_horse_basic = imodbit_swaybacked | imodbit_lame | imodbit_spirited | imodbit_heavy | imodbit_stubborn
 imodbits_horse_good = imodbit_spirited | imodbit_heavy

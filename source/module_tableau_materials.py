@@ -1,7 +1,7 @@
-from header_operations import *
-from header_common import pos1, pos5, pos8
+from .header_operations import *
+from .header_common import pos1, pos5, pos8
 
-from module_constants import banner_scene_props_begin, \
+from .module_constants import banner_scene_props_begin, \
     banner_meshes_begin, kingdoms_end, \
     banner_scene_props_end_minus_one, kingdoms_begin, arms_meshes_begin
 

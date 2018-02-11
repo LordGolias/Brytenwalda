@@ -36,20 +36,20 @@ class Item(GenericEntity):
         self._name = name
         self._meshes = meshes
         self._flags = flags
-        if not isinstance(flags, (int, long)):
+        if not isinstance(flags, int):
             raise TypeError('"flags" of %s is not an int' % id)
 
-        if not isinstance(capabilities, (int, long)):
+        if not isinstance(capabilities, int):
             raise TypeError('"capabilities" of %s is not an int: %s' % (id, capabilities))
         self._capabilities = capabilities
 
         self._slot_no = slot_no
         self._value = value
-        if not isinstance(stats, (int, long)):
+        if not isinstance(stats, int):
             raise TypeError('"stats" of %s is not an int' % id)
         self._stats = stats
 
-        if not isinstance(weapon_flags, (int, long)):
+        if not isinstance(weapon_flags, int):
             factions_ids = triggers
             triggers = weapon_flags
             #raise TypeError('"weapon_flags" (9th entry) of "%s" is not an int: %s' % (id, weapon_flags))

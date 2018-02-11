@@ -11,13 +11,7 @@ from source.module_items_footwear import footwear
 
 from source.statement import StatementBlock
 
-import patrols
-import scouts
-import recruit
-import train
-import move_troops
-import reports
-import release_prisoner
+from . import patrols, scouts, recruit, train, move_troops, reports, release_prisoner
 
 
 WEEKLY_COST_OF_CONSTABLE = 15

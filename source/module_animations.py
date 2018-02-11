@@ -1,4 +1,4 @@
-from header_animations import *
+from .header_animations import *
 
 ####################################################################################################################
 #  There are two animation arrays (one for human and one for horse). Each animation in these arrays contains the following fields:

@@ -9,7 +9,7 @@ from source.module_constants import *
 
 from source.mission_template_triggers import common_battle_init_banner
 
-from mission_template_triggers import mp_shield_bash_1, mp_shield_bash_2, banner_heal_multi, \
+from .mission_template_triggers import mp_shield_bash_1, mp_shield_bash_2, banner_heal_multi, \
     multi_warcry, hunt_taunting, rain_multi, fire_arrow_initialize_multi, \
     destructible_object_initialize_multi, toggle_fire_arrow_mode_multi, fire_element_life_multi, \
     fire_arrow_routine_multi, respiracion_moribunda, multi_ambient_sounds, sistema_fatiga_multi, \

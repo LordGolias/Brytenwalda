@@ -1,9 +1,9 @@
-from header_operations import *
+from .header_operations import *
 
-from header_triggers import ti_on_init_map_icon
-from header_map_icons import mcn_no_shadow
+from .header_triggers import ti_on_init_map_icon
+from .header_map_icons import mcn_no_shadow
 
-#from module_constants import "slot_town_lord"
+#from .module_constants import "slot_town_lord"
 
 
 ####################################################################################################################

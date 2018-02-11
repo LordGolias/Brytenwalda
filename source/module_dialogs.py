@@ -1,18 +1,18 @@
-from header_operations import *
-from header_common import *
-from header_dialogs import *
-from header_parties import *
-from header_troops import *
-from header_skills import *
-from header_item_modifiers import imod_cracked
+from .header_operations import *
+from .header_common import *
+from .header_dialogs import *
+from .header_parties import *
+from .header_troops import *
+from .header_skills import *
+from .header_item_modifiers import imod_cracked
 
-from module_constants import *
+from .module_constants import *
 
 from .lazy_flag import LazyFlag
 
 from . import enterprise, tournaments, companions, caravans, village_elder, \
     game_start, patrols, constable
-import minister
+from . import minister
 
 ####################################################################################################################
 # During a dialog, the dialog lines are scanned from top to bottom.

@@ -3,11 +3,7 @@ from source.header_dialogs import anyone, plyr
 from source.module_constants import *
 from source.header_operations import *
 
-import attack
-import attack_quest
-import demand_toll
-import journey_explanation
-import escort_quest
+from . import attack, attack_quest, demand_toll, journey_explanation, escort_quest
 
 _start_dialogs = [
 

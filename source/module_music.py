@@ -1,4 +1,4 @@
-from header_music import *
+from .header_music import *
 
 ####################################################################################################################
 #  Each track record contains the following fields:

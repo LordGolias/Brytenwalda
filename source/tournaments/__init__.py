@@ -5,8 +5,8 @@ from ..header_game_menus import menu_text_color, mnf_disable_all_keys
 
 from ..module_constants import *
 
-from scripts import scripts
-from menus import menus
+from .scripts import scripts
+from .menus import menus
 
 
 town_menu_options = [

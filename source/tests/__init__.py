@@ -3,9 +3,7 @@ from source.header_common import pos1
 
 from source.header_game_menus import mnf_disable_all_keys
 
-import test_quest_merchant
-import test_battles
-import test_items
+from . import test_quest_merchant, test_battles, test_items
 
 
 menus = [

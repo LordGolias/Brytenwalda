@@ -1,4 +1,4 @@
-from header_factions import *
+from .header_factions import *
 
 ####################################################################################################################
 #  Each faction record contains the following fields:

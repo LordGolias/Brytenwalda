@@ -3,10 +3,8 @@ from source.header_troops import *
 from source.header_skills import *
 from source.header_game_menus import mnf_disable_all_keys, menu_text_color
 
-import introduction, tutorial, character_creation, quest_merchant
-import game_start_script
-import game_quick_start_script
-import initialization_scripts
+from . import introduction, tutorial, character_creation, quest_merchant, game_start_script, \
+    game_quick_start_script, initialization_scripts
 
 
 start_menu_0 = \

@@ -1,4 +1,4 @@
-from header_parties import *
+from .header_parties import *
 from source.lazy_flag import LazyFlag
 ####################################################################################################################
 #Each party record contains the following fields:

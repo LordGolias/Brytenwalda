@@ -1,9 +1,9 @@
-from header_troops import *
-from header_skills import *
+from .header_troops import *
+from .header_skills import *
 
-from module_items_shields import shields as items_shields
-from module_items_horses import horses as items_horses
-from module_items_footwear import footwear as items_footwear
+from .module_items_shields import shields as items_shields
+from .module_items_horses import horses as items_horses
+from .module_items_footwear import footwear as items_footwear
 
 
 _troop_attributes = {

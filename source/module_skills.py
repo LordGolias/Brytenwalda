@@ -1,4 +1,4 @@
-from header_skills import *
+from .header_skills import *
 
 #############################
 #  Each skill contains the following fields:

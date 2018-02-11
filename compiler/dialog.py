@@ -66,7 +66,7 @@ def compile_sentence_tokens(sentences):
         output_token = sentence[opt_token_pos]
 
         try:
-            output_token_id = dialog_states.keys().index(output_token)
+            output_token_id = list(dialog_states.keys()).index(output_token)
         except ValueError:
             dialog_states[output_token] = 0
             output_token_id = len(dialog_states) - 1
@@ -77,7 +77,7 @@ def compile_sentence_tokens(sentences):
         input_token = sentence[ipt_token_pos]
 
         try:
-            input_token_id = dialog_states.keys().index(input_token)
+            input_token_id = list(dialog_states.keys()).index(input_token)
             dialog_states[input_token] += 1
         except ValueError:
             input_token_id = -1

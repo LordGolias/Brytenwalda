@@ -1,15 +1,14 @@
-from header_troops import *
-from header_skills import *
+from .header_troops import *
+from .header_skills import *
 
-from module_items_shields import shields as items_shields
-from module_items_horses import horses
-from module_items_footwear import footwear
-from module_constants import ARENA_FOOTWEAR
+from .module_items_shields import shields as items_shields
+from .module_items_horses import horses
+from .module_items_footwear import footwear
+from .module_constants import ARENA_FOOTWEAR
 
-from module_troops_new import briton_troops, saxon_troops, jute_troops, engle_troops, pict_troops, irish_troops
+from .module_troops_new import briton_troops, saxon_troops, jute_troops, engle_troops, pict_troops, irish_troops
 
-from . import enterprise, multiplayer
-import constable
+from . import enterprise, multiplayer, constable
 
 ####################  Each troop contains the following fields:
 #  1) Troop id (string): used for referencing troops in other files. The prefix trp_ is automatically added before each troop-id .

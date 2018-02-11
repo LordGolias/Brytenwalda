@@ -8,7 +8,7 @@ from ..module_constants import *
 
 from ..statement import StatementBlock
 
-import troops as _troops
+from . import troops as _troops
 
 
 simple_triggers = [

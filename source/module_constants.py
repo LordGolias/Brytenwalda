@@ -1,4 +1,4 @@
-from header_triggers import key_z, key_t, key_o, key_f7, key_n
+from .header_triggers import key_z, key_t, key_o, key_f7, key_n
 
 ##############################################################
 # These constants are used in various files.

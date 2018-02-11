@@ -1,4 +1,4 @@
-from header_quests import *
+from .header_quests import *
 ####################################################################################################################
 #  Each quest record contains the following fields:
 #  1) Quest id: used for referencing quests in other files. The prefix qst_ is automatically added before each quest-id.
